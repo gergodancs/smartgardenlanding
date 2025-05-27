@@ -1,0 +1,102 @@
+:root {
+  --primary: #228b22;
+  --text: #333;
+  --bg: #f9f9f9;
+  --padding: 1.5rem;
+  --max-width: 768px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main-background {
+  min-height: 100vh;
+  background: linear-gradient(rgba(255,255,255,0.96), rgba(255,255,255,0.96)),
+  url('/images/bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--padding);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.feature h2 {
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.cta-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #1e7a1e;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 2rem;
+}
+
+/* Desktop upgrade */
+@media (min-width: 768px) {
+  .features {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .feature {
+    flex: 1;
+    padding: 0 1rem;
+  }
+
+  .cta-button {
+    width: auto;
+    margin: 0 auto;
+  }
+}

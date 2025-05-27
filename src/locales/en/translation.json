@@ -1,0 +1,16 @@
+{
+  "subtitle": "Smart irrigation for your garden",
+  "feature1": {
+    "title": "Automatic watering",
+    "desc": "Sensor-based and customizable per plant"
+  },
+  "feature2": {
+    "title": "Mobile control",
+    "desc": "Manually or based on schedule"
+  },
+  "feature3": {
+    "title": "Customizable",
+    "desc": "Tailored solutions for any garden"
+  },
+  "cta": "Learn more"
+}

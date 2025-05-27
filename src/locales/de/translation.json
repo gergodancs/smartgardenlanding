@@ -1,0 +1,16 @@
+{
+  "subtitle": "Smarte Bewässerung für Ihren Garten",
+  "feature1": {
+    "title": "Automatische Bewässerung",
+    "desc": "Sensorbasiert und individuell für jede Pflanze"
+  },
+  "feature2": {
+    "title": "Steuerung per Handy",
+    "desc": "Manuell oder Zeitplan-basiert"
+  },
+  "feature3": {
+    "title": "Anpassbar",
+    "desc": "Individuelle Lösungen für jeden Garten"
+  },
+  "cta": "Mehr erfahren"
+}
