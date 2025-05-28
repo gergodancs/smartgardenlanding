@@ -32,13 +32,16 @@ body {
     padding: 1rem 0 0;
     color: #333;
     line-height: 1.6;
-
-    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), url('/images/bg.png');
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+
     background-attachment: fixed; /* 🧠 Ez a kulcs! */
     min-height: 100vh;
+    /* 🎯 FIXÁLT háttér, ami nem mozog a tartalommal */
+    background-image: url('/images/bg.png');
+    background-size: cover;
+    background-position: center;
+  /* 💡 ez a kulcs! */
+    background-color: #f9f9f9;
 }
 
 
