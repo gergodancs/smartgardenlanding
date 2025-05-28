@@ -4,6 +4,7 @@ import '@/lib/i18n';
 import Image from 'next/image';
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import {useRef} from "react";
+import CarouselComponent from "@/components/CarouselComponent";
 
 
 export default function HomePage() {
@@ -42,6 +43,7 @@ export default function HomePage() {
                 <p className="post-image-text">{t('postImage')}</p>
             </section>
 
+            <CarouselComponent />
 
             <main className="container main">
                 <section className="features" ref={featureRef}>
