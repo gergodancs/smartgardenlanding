@@ -15,12 +15,6 @@ export default function HomePage() {
         featureRef.current?.scrollIntoView({behavior: 'smooth'});
     };
 
-    const detailsRef = useRef<HTMLDivElement | null>(null);
-
-    const scrollToDetails = () => {
-        detailsRef.current?.scrollIntoView({behavior: 'smooth'});
-    };
-
 
     return (
         <>
