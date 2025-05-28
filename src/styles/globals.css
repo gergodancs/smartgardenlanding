@@ -8,6 +8,21 @@
     --text-size: 1.2rem;
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('/images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
 .hero h1 {
     font-size: var(--heading-size);
 }
@@ -32,16 +47,10 @@ body {
     padding: 1rem 0 0;
     color: #333;
     line-height: 1.6;
-    background-repeat: no-repeat;
-
-    background-attachment: fixed; /* 🧠 Ez a kulcs! */
+    background:none;
     min-height: 100vh;
     /* 🎯 FIXÁLT háttér, ami nem mozog a tartalommal */
-    background-image: url('/images/bg.png');
-    background-size: cover;
-    background-position: center;
-  /* 💡 ez a kulcs! */
-    background-color: #f9f9f9;
+
 }
 
 
