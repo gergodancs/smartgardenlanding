@@ -1,16 +1,55 @@
 {
-  "subtitle": "Smarte Bewässerung für Ihren Garten",
+  "subtitle": "Ihre Pflanzen – perfekt bewässert",
+  "cta": "Mehr erfahren",
+  "postImage": "Volle Kontrolle über Ihren Garten",
   "feature1": {
-    "title": "Automatische Bewässerung",
-    "desc": "Sensorbasiert und individuell für jede Pflanze"
+    "title": "Optimale Bedingungen",
+    "desc": "Smart Garden sorgt stets für das beste Umfeld für Ihre Pflanzen – drinnen wie draußen."
   },
   "feature2": {
-    "title": "Steuerung per Handy",
-    "desc": "Manuell oder Zeitplan-basiert"
+    "title": "Zonen nach Pflanzengruppen",
+    "desc": "Separate Bewässerungszonen für jede Pflanzenart – denn Farne sind keine Kakteen."
   },
   "feature3": {
-    "title": "Anpassbar",
-    "desc": "Individuelle Lösungen für jeden Garten"
+    "title": "Flexible Bewässerungsmuster",
+    "desc": "Feuchtigkeitsbasierte oder zeitgesteuerte Bewässerung unter Berücksichtigung von Trockenphasen."
   },
-  "cta": "Mehr erfahren"
+  "feature4": {
+    "title": "Saisonale Profile",
+    "desc": "Bewässerungsprofile, die sich an die Jahreszeiten oder Wachstumsphasen anpassen."
+  },
+  "feature5": {
+    "title": "Umweltfreundlicher Betrieb",
+    "desc": "Vermeidet unnötiges Gießen – reduziert Ihren Wasserverbrauch im Haushalt."
+  },
+  "feature6": {
+    "title": "Kompatibel mit Ihrem System",
+    "desc": "Sie müssen Ihre bestehende Anlage nicht ersetzen – wir machen sie einfach smarter."
+  },
+  "feature7": {
+    "title": "Vollständig anpassbar",
+    "desc": "Individuelle Softwarelösungen für Spezialgärten oder landwirtschaftliche Anwendungen."
+  },
+  "details-button": "Details",
+  "detailsTitle": "So funktioniert Smart Garden",
+  "detailsIntro": "Unser System sorgt für eine perfekte Bewässerung – abgestimmt auf den Pflanzentyp und aktuelle Bodendaten.",
+  "detailsFullCard": {
+    "title": "So funktioniert Smart Garden im Detail",
+    "intro": "Smart Garden unterstützt 6 vorprogrammierte Bewässerungszonen, die jeweils einer Pflanzengruppe mit ähnlichem Wasserbedarf zugeordnet sind – z. B. Sukkulenten, Gemüse oder Blumen.",
+    "patternsTitle": "Für jede Zone können Sie aus drei flexiblen Bewässerungsmustern wählen:",
+    "pattern1": {
+      "title": "Feuchtigkeitsbasiertes, adaptives Muster",
+      "text": "Stellen Sie ein, bis zu welchem Feuchtigkeitswert gegossen werden soll, und definieren Sie Trockenphasen zwischen den Bewässerungen. Zusätzlich können Sie saisonale oder phasenbasierte Zyklen festlegen, die sich an die Bedürfnisse Ihrer Pflanzen im Jahresverlauf anpassen."
+    },
+    "pattern2": {
+      "title": "Periodische Bewässerung mit Feuchtigkeitsgrenze",
+      "text": "Geben Sie an, dass alle X Tage bis zu einem bestimmten Maximalwert gegossen wird – ideal für Gärten, bei denen exakte Wassermengen wichtig sind, aber keine permanente Messung erforderlich ist."
+    },
+    "pattern3": {
+      "title": "Einfaches, zeitbasiertes Muster",
+      "text": "Legen Sie fest, wie oft und wie lange bewässert werden soll – z. B. alle 3 Tage für 10 Minuten. Diese einfache Variante eignet sich gut für robuste Pflanzen oder den Grundbetrieb."
+    },
+    "manual": "Darüber hinaus kann jede Zone manuell bewässert werden – die Anlage gießt dann bis zum eingestellten Feuchtigkeitswert.",
+    "wireless": "In größeren Gärten kommunizieren drahtlose Bodenfeuchtesensoren per WLAN mit der Steuereinheit. Sie versorgen sich selbstständig über Energierückgewinnung oder langlebige Batterien."
+  }
 }

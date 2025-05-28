@@ -1,16 +1,62 @@
 {
-  "subtitle": "Smart irrigation for your garden",
+  "subtitle": "Your plants, perfectly watered",
+  "cta": "Learn more",
+  "postImage": "Full control of your garden",
   "feature1": {
-    "title": "Automatic watering",
-    "desc": "Sensor-based and customizable per plant"
+    "title": "Ideal environment",
+    "desc": "Smart Garden always provides the best conditions for your plants – whether indoors or outdoors."
   },
   "feature2": {
-    "title": "Mobile control",
-    "desc": "Manually or based on schedule"
+    "title": "Zones by plant groups",
+    "desc": "Separate irrigation zones for each type of plant – because ferns aren’t cacti."
   },
   "feature3": {
-    "title": "Customizable",
-    "desc": "Tailored solutions for any garden"
+    "title": "Flexible irrigation patterns",
+    "desc": "Soil moisture-based or timed watering with dry cycles considered."
   },
-  "cta": "Learn more"
+  "feature4": {
+    "title": "Seasonal profiles",
+    "desc": "Irrigation profiles that adapt to the seasons or the plant’s growth stage."
+  },
+  "feature5": {
+    "title": "Eco-friendly operation",
+    "desc": "Avoids unnecessary watering – reducing your household’s water consumption."
+  },
+  "feature6": {
+    "title": "Compatible with your system",
+    "desc": "No need to replace your current system – we just make it smarter."
+  },
+  "feature7": {
+    "title": "Fully customizable",
+    "desc": "Tailored software for special gardens or agricultural needs."
+  },
+  "details-button": "Details",
+  "detailsTitle": "How Smart Garden works",
+  "detailsIntro": "Our system ensures perfect irrigation based on plant type and real-time soil data.",
+  "detailsFullCard": {
+    "title": "How Smart Garden works in detail",
+    "intro": "Smart Garden supports 6 pre-programmed irrigation zones, each dedicated to a group of plants with similar water needs — for example, succulents, vegetables, or flowers.",
+    "patternsTitle": "Within each zone, you can choose from three flexible watering patterns:",
+    "pattern1": {
+      "title": "Moisture-based adaptive pattern",
+      "text": "Configure the system to water until a desired soil moisture level is reached, and define a dry period between watering sessions. You can set up seasonal or phase-based cycles to adapt the watering behavior throughout the year, according to your plants' needs."
+    },
+    "pattern2": {
+      "title": "Periodic watering with moisture cap",
+      "text": "Set a schedule that waters the plants every X days, but only up to a defined maximum moisture level — perfect for gardens where precise hydration is important, but less real-time data is needed."
+    },
+    "pattern3": {
+      "title": "Simple time-based pattern",
+      "text": "Choose how often and how long to water — for example, 10 minutes every 3 days. This basic mode works well for hardy plants or general maintenance."
+    },
+    "manual": "Additionally, every zone supports manual watering, allowing you to trigger irrigation instantly until the target moisture level is reached.",
+    "wireless": "In large gardens, wireless soil sensors communicate over Wi-Fi with the main control unit and are self-powered through energy harvesting or long-life batteries."
+  },
+  "footer": {
+    "company": "SmartGarden",
+    "email": "info@smartgarden.com",
+    "phone": "+43 660 123 4567"
+  }
+
+
 }
