@@ -1,31 +1,23 @@
 'use client';
-import {useTranslation} from 'react-i18next';
+import { useRouter, usePathname } from 'next/navigation';
 
-export default function LanguageSwitcher() {
-    const {i18n} = useTranslation();
-    const currentLang = i18n.language;
+const LanguageSwitcher = () => {
+    const router = useRouter();
+    const pathname = usePathname();
 
     const changeLanguage = (lng: string) => {
-        void i18n.changeLanguage(lng);
-        localStorage.setItem('lng', lng);
+        const segments = pathname.split('/');
+        segments[1] = lng; // Replace locale segment
+        const newPath = segments.join('/');
+        router.push(newPath);
     };
 
     return (
         <div className="language-switcher">
-            <button
-                onClick={() => changeLanguage('en')}
-                className={currentLang === 'en' ? 'active' : ''}
-                title="English"
-            >
-                🇬🇧
-            </button>
-            <button
-                onClick={() => changeLanguage('de')}
-                className={currentLang === 'de' ? 'active' : ''}
-                title="Deutsch"
-            >
-                🇩🇪
-            </button>
+            <button onClick={() => changeLanguage('de')}>🇩🇪</button>
+            <button onClick={() => changeLanguage('en')}>🇬🇧</button>
         </div>
     );
-}
+};
+
+export default LanguageSwitcher;
