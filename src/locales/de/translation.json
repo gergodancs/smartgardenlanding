@@ -51,5 +51,12 @@
     },
     "manual": "Darüber hinaus kann jede Zone manuell bewässert werden – die Anlage gießt dann bis zum eingestellten Feuchtigkeitswert.",
     "wireless": "In größeren Gärten kommunizieren drahtlose Bodenfeuchtesensoren per WLAN mit der Steuereinheit. Sie versorgen sich selbstständig über Energierückgewinnung oder langlebige Batterien."
+  },
+  "audience": {
+    "title": "Für wen ist es geeignet?",
+    "balcony": "Ideal für Balkone und kleine Flächen.",
+    "garden": "Smarte Bewässerung für Privatgärten.",
+    "community": "Perfekt für Gemeinschaftsgärten.",
+    "farm": "Unterstützt Kleinbetriebe und Landwirtschaft."
   }
 }

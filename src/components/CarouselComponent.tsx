@@ -5,11 +5,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export default function CarouselComponent() {
   const images = [
-    '/images/garten1.jpg',
-    '/images/garten2.jpg',
-    '/images/garten3.jpg',
+    '/images/balcony.jpg',
+    '/images/garden.jpg',
+    '/images/community.jpg',
     '/images/garten4.jpg',
-    '/images/VEGETABLES1.jpg',
+    '/images/farm.jpg',
     '/images/VEGETABLES2.jpg',
   ];
 

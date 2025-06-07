@@ -1,7 +1,8 @@
 {
-  "subtitle": "Your plants, perfectly watered",
   "cta": "Learn more",
-  "postImage": "Full control of your garden",
+  "subtitle": "Smart irrigation tailored to each plant group — indoors or outdoors.",
+  "postImage": "Control every zone, schedule, and sensor from one central unit — manually or automatically.",
+
   "feature1": {
     "title": "Ideal environment",
     "desc": "Smart Garden always provides the best conditions for your plants – whether indoors or outdoors."
@@ -56,7 +57,13 @@
     "company": "SmartGarden",
     "email": "info@smartgarden.com",
     "phone": "+43 660 123 4567"
+  },
+  "audience": {
+    "title": "Who is it for?",
+    "balcony": "Perfect for balconies and small spaces.",
+    "garden": "Smart watering for private gardens.",
+    "community": "Ideal for shared or community gardens.",
+    "farm": "Supports small-scale agriculture and farms."
   }
-
 
 }
