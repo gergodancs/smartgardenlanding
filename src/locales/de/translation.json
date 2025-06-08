@@ -1,4 +1,11 @@
 {
+  "hero": {
+    "title": "SmartGarden",
+    "motto": "Wir optimieren nicht einfach die Bewässerung – wir verbessern die Lebensbedingungen der Pflanzen.",
+    "subline": "Denn Nachhaltigkeit bedeutet nicht sparen – sondern bewusst entscheiden.",
+    "cta1": "Mehr erfahren",
+    "cta2": "Kontakt aufnehmen"
+  },
   "subtitle": "Ihre Pflanzen – perfekt bewässert",
   "cta": "Mehr erfahren",
   "postImage": "Volle Kontrolle über Ihren Garten",

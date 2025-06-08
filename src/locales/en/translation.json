@@ -1,8 +1,14 @@
 {
+  "hero": {
+    "title": "SmartGarden",
+    "motto": "We're not just optimizing irrigation – we're improving plant wellbeing.",
+    "subline": "Because sustainability isn't about saving money – it's about making smarter choices.",
+    "cta1": "Learn more",
+    "cta2": "Get in touch"
+  },
+  "subtitle": "Your plants – perfectly watered",
   "cta": "Learn more",
-  "subtitle": "Smart irrigation tailored to each plant group — indoors or outdoors.",
-  "postImage": "Control every zone, schedule, and sensor from one central unit — manually or automatically.",
-
+  "postImage": "Full control of your garden",
   "feature1": {
     "title": "Ideal environment",
     "desc": "Smart Garden always provides the best conditions for your plants – whether indoors or outdoors."
@@ -36,7 +42,7 @@
   "detailsIntro": "Our system ensures perfect irrigation based on plant type and real-time soil data.",
   "detailsFullCard": {
     "title": "How Smart Garden works in detail",
-    "intro": "Smart Garden supports 6 pre-programmed irrigation zones, each dedicated to a group of plants with similar water needs — for example, succulents, vegetables, or flowers.",
+    "intro": "Smart Garden supports 6 pre-programmed irrigation zones, each dedicated to a group of plants with similar water needs – for example, succulents, vegetables, or flowers.",
     "patternsTitle": "Within each zone, you can choose from three flexible watering patterns:",
     "pattern1": {
       "title": "Moisture-based adaptive pattern",
@@ -53,11 +59,6 @@
     "manual": "Additionally, every zone supports manual watering, allowing you to trigger irrigation instantly until the target moisture level is reached.",
     "wireless": "In large gardens, wireless soil sensors communicate over Wi-Fi with the main control unit and are self-powered through energy harvesting or long-life batteries."
   },
-  "footer": {
-    "company": "SmartGarden",
-    "email": "info@smartgarden.com",
-    "phone": "+43 660 123 4567"
-  },
   "audience": {
     "title": "Who is it for?",
     "balcony": "Perfect for balconies and small spaces.",
@@ -65,5 +66,4 @@
     "community": "Ideal for shared or community gardens.",
     "farm": "Supports small-scale agriculture and farms."
   }
-
 }

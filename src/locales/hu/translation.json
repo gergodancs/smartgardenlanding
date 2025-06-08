@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "title": "SmartGarden",
+    "motto": "Nem a locsolórendszert optimalizáljuk – hanem a növényeink életkörülményeit.",
+    "subline": "Mert a fenntarthatóság nem a spórolásról szól, hanem a tudatos döntésekről.",
+    "cta1": "Tudj meg többet",
+    "cta2": "Vedd fel velünk a kapcsolatot"
+  },
+  "subtitle": "A növényeid – tökéletesen öntözve",
+  "cta": "Tudj meg többet",
+  "postImage": "Teljes irányítás a kerted felett",
+  "feature1": {
+    "title": "Ideális környezet",
+    "desc": "A Smart Garden mindig a legjobb feltételeket biztosítja növényeidnek – legyen szó beltérről vagy kültérről."
+  },
+  "feature2": {
+    "title": "Zónák növénycsoportok szerint",
+    "desc": "Külön öntözési zónák minden növénytípushoz – mert a páfrány nem kaktusz."
+  },
+  "feature3": {
+    "title": "Rugalmas öntözési minták",
+    "desc": "Talajnedvesség-alapú vagy időzített öntözés, figyelembe véve a száraz periódusokat is."
+  },
+  "feature4": {
+    "title": "Szezonális profilok",
+    "desc": "Az öntözési beállítások alkalmazkodnak az évszakokhoz vagy a növény növekedési fázisához."
+  },
+  "feature5": {
+    "title": "Környezettudatos működés",
+    "desc": "Elkerüli a felesleges locsolást – csökkenti a háztartási vízhasználatot."
+  },
+  "feature6": {
+    "title": "Kompatibilis a meglévő rendszerrel",
+    "desc": "Nem kell lecserélned a meglévő rendszert – mi csak okosabbá tesszük."
+  },
+  "feature7": {
+    "title": "Teljesen testreszabható",
+    "desc": "Személyre szabott szoftver speciális kertekhez vagy mezőgazdasági célokra."
+  },
+  "details-button": "Részletek",
+  "detailsTitle": "Így működik a Smart Garden",
+  "detailsIntro": "Rendszerünk tökéletes öntözést biztosít a növénytípus és a valós idejű talajadatok alapján.",
+  "detailsFullCard": {
+    "title": "Így működik részletesen a Smart Garden",
+    "intro": "A Smart Garden 6 előre beprogramozott öntözési zónát támogat, amelyek hasonló vízigényű növénycsoportokhoz rendelhetők – például pozsgásokhoz, zöldségekhez vagy virágokhoz.",
+    "patternsTitle": "Minden zónán belül három rugalmas öntözési minta közül választhatsz:",
+    "pattern1": {
+      "title": "Nedvesség-alapú, adaptív minta",
+      "text": "Beállíthatod, hogy milyen nedvességszintig öntözzön, és meghatározhatod a két locsolás közötti száraz időszakot. Emellett évszakos vagy növekedési fázis szerinti ciklusokat is használhatsz."
+    },
+    "pattern2": {
+      "title": "Időszakos öntözés nedvesség-korláttal",
+      "text": "Adj meg egy ütemezést (pl. 3 naponta), de csak egy adott maximális nedvességszintig öntözzön – kiváló, ha fontos a pontos vízadag, de nincs szükség folyamatos mérésre."
+    },
+    "pattern3": {
+      "title": "Egyszerű időalapú minta",
+      "text": "Add meg, milyen gyakran és meddig öntözzön – például 10 perc minden 3. napon. Ez az alapmód strapabíró növényekhez tökéletes."
+    },
+    "manual": "Ezen felül minden zóna manuálisan is öntözhető – a rendszer a beállított nedvességszintig öntöz azonnal.",
+    "wireless": "Nagyobb kertekben vezeték nélküli szenzorok kommunikálnak Wi-Fi-n keresztül a vezérlőegységgel. Az energiát önellátó módon vagy hosszú élettartamú elemekkel biztosítják."
+  },
+  "audience": {
+    "title": "Kiknek ajánljuk?",
+    "balcony": "Tökéletes erkélyekhez és kis területekhez.",
+    "garden": "Okos öntözés magánkertekhez.",
+    "community": "Ideális közösségi kertekhez.",
+    "farm": "Támogatja a kisgazdaságokat és mezőgazdasági felhasználást."
+  },
+  "footer": {
+    "company": "SmartGarden",
+    "email": "info@smartgarden.com",
+    "phone": "+43 660 123 4567"
+  }
+}
