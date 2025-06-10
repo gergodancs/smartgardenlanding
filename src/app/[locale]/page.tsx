@@ -4,19 +4,24 @@ import {useTranslation} from 'react-i18next';
 import '@/lib/i18n.client';
 import Image from 'next/image';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
-import {use, useEffect} from "react";
-import i18n from "@/lib/i18n";
+import {use, useEffect, useState} from "react";
+import i18n from '@/lib/i18n.client';
 
 export default function HomePage({params}: { params: Promise<{ locale: string }> }) {
-    const {t} = useTranslation();
     const {locale} = use(params);
+    const {t} = useTranslation();
+
+    const [ready, setReady] = useState(false);
 
     useEffect(() => {
         if (i18n.language !== locale) {
-            void i18n.changeLanguage(locale);
+            i18n.changeLanguage(locale).then(() => setReady(true));
+        } else {
+            setReady(true);
         }
-    }, [locale, i18n]);
+    }, [locale]);
 
+    if (!ready) return null;
     return (
         <>
             <LanguageSwitcher/>

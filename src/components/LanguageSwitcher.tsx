@@ -1,22 +1,30 @@
 'use client';
-import { useRouter, usePathname } from 'next/navigation';
+
+import Link from 'next/link';
+import {usePathname} from 'next/navigation';
 
 const LanguageSwitcher = () => {
-    const router = useRouter();
     const pathname = usePathname();
+    const segments = pathname.split('/');
+    const currentLang = segments[1];
 
-    const changeLanguage = (lng: string) => {
-        const segments = pathname.split('/');
-        segments[1] = lng; // Replace locale segment
-        const newPath = segments.join('/');
-        router.push(newPath);
+    const buildPath = (lng: string) => {
+        const newSegments = [...segments];
+        newSegments[1] = lng;
+        return newSegments.join('/');
     };
 
     return (
         <div className="language-switcher">
-            <button onClick={() => changeLanguage('de')}>🇩🇪</button>
-            <button onClick={() => changeLanguage('en')}>🇬🇧</button>
-            <button onClick={() => changeLanguage('hu')}>🇭🇺</button>
+            <Link href={buildPath('de')}>
+                <button className={currentLang === 'de' ? 'active' : ''}>🇩🇪</button>
+            </Link>
+            <Link href={buildPath('en')}>
+                <button className={currentLang === 'en' ? 'active' : ''}>🇬🇧</button>
+            </Link>
+            <Link href={buildPath('hu')}>
+                <button className={currentLang === 'hu' ? 'active' : ''}>🇭🇺</button>
+            </Link>
         </div>
     );
 };
