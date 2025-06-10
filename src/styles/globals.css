@@ -219,6 +219,24 @@ body {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
+/* -- glass card -- */
+.glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-4px);
+}
+
+
 @media (min-width: 768px) {
     .hero {
         padding: 4rem 1rem;

@@ -1,16 +1,25 @@
 'use client';
 
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 import '@/lib/i18n.client';
 import Image from 'next/image';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import {use, useEffect} from "react";
+import i18n from "@/lib/i18n";
 
-export default function HomePage() {
-    const { t } = useTranslation();
+export default function HomePage({params}: { params: Promise<{ locale: string }> }) {
+    const {t} = useTranslation();
+    const {locale} = use(params);
+
+    useEffect(() => {
+        if (i18n.language !== locale) {
+            void i18n.changeLanguage(locale);
+        }
+    }, [locale, i18n]);
 
     return (
         <>
-            <LanguageSwitcher />
+            <LanguageSwitcher/>
 
             {/* HERO */}
             {/* HERO */}
@@ -39,7 +48,7 @@ export default function HomePage() {
             {/* FEATURES */}
             <section className="features">
                 {[1, 2, 3, 4].map((i) => (
-                    <div className="feature-card" key={i}>
+                    <div className="feature-card glass-card" key={i}>
                         <Image
                             src={`/images/solsolar.png`}
                             alt={`Feature ${i}`}
@@ -57,7 +66,7 @@ export default function HomePage() {
                 <h2>{t('audience.title')}</h2>
                 <div className="audience-grid">
                     {['balcony', 'garden', 'community', 'farm'].map((key) => (
-                        <div className="audience-item" key={key}>
+                        <div className="audience-item glass-card" key={key}>
                             <Image
                                 src={`/images/${key}.jpg`}
                                 alt={key}
