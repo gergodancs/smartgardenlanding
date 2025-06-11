@@ -65,5 +65,10 @@
     "garden": "Smart watering for private gardens.",
     "community": "Ideal for shared or community gardens.",
     "farm": "Supports small-scale agriculture and farms."
+  },
+  "footer": {
+    "company": "SmartGarden",
+    "email": "info@smartgarden.com",
+    "phone": "+43 660 123 4567"
   }
 }

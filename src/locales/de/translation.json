@@ -65,5 +65,10 @@
     "garden": "Smarte Bewässerung für Privatgärten.",
     "community": "Perfekt für Gemeinschaftsgärten.",
     "farm": "Unterstützt Kleinbetriebe und Landwirtschaft."
+  },
+  "footer": {
+    "company": "SmartGarden",
+    "email": "info@smartgarden.com",
+    "phone": "+43 660 123 4567"
   }
 }
