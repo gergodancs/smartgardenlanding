@@ -34,9 +34,7 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
                         <h1>{t('hero.title')}</h1>
                         <p className="hero-motto">{t('hero.motto')}</p>
                         <p className="hero-subline">{t('hero.subline')}</p>
-                        <div className="hero-buttons">
-                            <button className="cta">{t('hero.cta1')}</button>
-                        </div>
+
                     </div>
                     <div className="hero-image">
                         <Image
@@ -47,6 +45,10 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
                             priority
                         />
                     </div>
+
+                    {/*<div className="hero-buttons">*/}
+                    {/*    <button className="cta">{t('hero.cta1')}</button>*/}
+                    {/*</div>*/}
                 </div>
             </section>
 
