@@ -25,36 +25,34 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
     return (
         <>
             <LanguageSwitcher/>
+            <header>
+                <Image
+                    src="/images/logowaasss.png"
+                    alt="Smart Garden controller"
+                    width={90}
+                    height={90}
+                    priority
+                />
+                <div className="header-text">Bewässerung spezialist in Wien</div>
+            </header>
 
             {/* HERO */}
             {/* HERO */}
             <section className="hero">
-                <div className="hero-inner">
+                <div className="hero-inner glass-card">
                     <div className="hero-text">
                         <h1>{t('hero.title')}</h1>
                         <p className="hero-motto">{t('hero.motto')}</p>
                         <p className="hero-subline">{t('hero.subline')}</p>
 
                     </div>
-                    <div className="hero-image">
-                        <Image
-                            src="/images/smgpics.png"
-                            alt="Smart Garden controller"
-                            width={400}
-                            height={400}
-                            priority
-                        />
-                    </div>
-
-                    {/*<div className="hero-buttons">*/}
-                    {/*    <button className="cta">{t('hero.cta1')}</button>*/}
-                    {/*</div>*/}
                 </div>
             </section>
-
+            <div className="post-hero">{t('postHero')}</div>
             {/* FEATURES */}
+            <h2 className="service-title">{t('serviceTitle')}</h2>
             <section className="features">
-                {[1, 2, 3, 4].map((i) => (
+                {[1, 2, 3, ].map((i) => (
                     <div className="feature-card glass-card" key={i}>
                         <Image
                             src={`/images/solsolar.png`}
@@ -62,8 +60,8 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
                             width={200}
                             height={200}
                         />
-                        <h2>{t(`feature${i}.title`)}</h2>
-                        <p>{t(`feature${i}.desc`)}</p>
+                        <h2>{t(`service${i}.title`)}</h2>
+                        <p>{t(`service${i}.desc`)}</p>
                     </div>
                 ))}
             </section>

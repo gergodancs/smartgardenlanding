@@ -1,41 +1,23 @@
 {
   "hero": {
-    "title": "SmartGarden",
+    "title": "Optimale Bewässerung für Ihren Garten",
     "motto": "Wir optimieren nicht einfach die Bewässerung – wir verbessern die Lebensbedingungen der Pflanzen.",
-    "subline": "Denn Nachhaltigkeit bedeutet nicht sparen – sondern bewusst entscheiden.",
-    "cta1": "Mehr erfahren",
-    "cta2": "Kontakt aufnehmen"
+    "subline": "Denn Nachhaltigkeit bedeutet nicht sparen – sondern bewusst entscheiden."
   },
-  "subtitle": "Ihre Pflanzen – perfekt bewässert",
-  "cta": "Mehr erfahren",
   "postImage": "Volle Kontrolle über Ihren Garten",
-  "feature1": {
-    "title": "Optimale Bedingungen",
-    "desc": "Smart Garden sorgt stets für das beste Umfeld für Ihre Pflanzen – drinnen wie draußen."
+  "postHero": "Ihr Spezialist für Bewässerungssysteme und Gartentechnik in Wien und Niederösterreich",
+  "serviceTitle": "Unsere Dienstleistungen",
+  "service1": {
+    "title": "Planung und Installation von Bewässerungssystemen",
+    "desc": "Wir planen und installieren automatisierte Bewässerungssysteme für private Gärten. Das System besteht aus unterirdischen Rohrleitungen, wassersparenden Sprinklerköpfen und zonenbasierter Steuerung. Bei der Installation achten wir besonders darauf, den Rasen nicht zu beschädigen und das Erscheinungsbild des Gartens zu erhalten."
   },
-  "feature2": {
-    "title": "Zonen nach Pflanzengruppen",
-    "desc": "Separate Bewässerungszonen für jede Pflanzenart – denn Farne sind keine Kakteen."
+  "service2": {
+    "title": "Wartung und Reparatur von Systemen",
+    "desc": "Wir sorgen das ganze Jahr über für den einwandfreien Betrieb Ihres Systems: Frühjahrsinbetriebnahme, Entleerung im Herbst, Einstellung oder Austausch von Sprinklern, Reparatur von Lecks sowie Überprüfung und Aktualisierung der Steuergeräte. Auch wenn Ihr System nicht von uns stammt, helfen wir gerne weiter."
   },
-  "feature3": {
-    "title": "Flexible Bewässerungsmuster",
-    "desc": "Feuchtigkeitsbasierte oder zeitgesteuerte Bewässerung unter Berücksichtigung von Trockenphasen."
-  },
-  "feature4": {
-    "title": "Saisonale Profile",
-    "desc": "Bewässerungsprofile, die sich an die Jahreszeiten oder Wachstumsphasen anpassen."
-  },
-  "feature5": {
-    "title": "Umweltfreundlicher Betrieb",
-    "desc": "Vermeidet unnötiges Gießen – reduziert Ihren Wasserverbrauch im Haushalt."
-  },
-  "feature6": {
-    "title": "Kompatibel mit Ihrem System",
-    "desc": "Sie müssen Ihre bestehende Anlage nicht ersetzen – wir machen sie einfach smarter."
-  },
-  "feature7": {
-    "title": "Vollständig anpassbar",
-    "desc": "Individuelle Softwarelösungen für Spezialgärten oder landwirtschaftliche Anwendungen."
+  "service3": {
+    "title": "Allgemeine Gartenpflege",
+    "desc": "Ein schöner Garten braucht kontinuierliche Pflege. Wir bieten regelmäßiges Rasenmähen, Rasenkantenschnitt, Unkrautentfernung, Rückschnitt von Büschen und Hecken sowie Abtransport von Grünabfällen an. Auf Wunsch übernehmen wir auch einmalige oder saisonale Gartenarbeiten."
   },
   "details-button": "Details",
   "detailsTitle": "So funktioniert Smart Garden",
