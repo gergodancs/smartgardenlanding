@@ -52,7 +52,7 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
             {/* FEATURES */}
             <h2 className="service-title">{t('serviceTitle')}</h2>
             <section className="features">
-                {[1, 2, 3, ].map((i) => (
+                {[1, 2, 3,].map((i) => (
                     <div className="feature-card glass-card" key={i}>
                         <Image
                             src={`/images/solsolar.png`}
@@ -70,7 +70,7 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
             <section className="audience">
                 <h2>{t('audience.title')}</h2>
                 <div className="audience-grid">
-                    {['balcony', 'garden', 'community', 'farm'].map((key) => (
+                    {['residential', 'sharedYards', 'publicSpaces'].map((key) => (
                         <div className="audience-item glass-card" key={key}>
                             <Image
                                 src={`/images/${key}.jpg`}
@@ -78,7 +78,7 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
                                 width={200}
                                 height={200}
                             />
-                            <h3>{t(`audience.${key}`)}</h3>
+                            <p>{t(`audience.${key}`)}</p>
                         </div>
                     ))}
                 </div>
@@ -86,19 +86,32 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
 
             {/* DETAILS */}
             <section className="details">
-                <h2>{t('detailsFullCard.title')}</h2>
-                <p>{t('detailsFullCard.intro')}</p>
-                <ul>
-                    {[1, 2, 3].map((i) => (
-                        <li key={i}>
-                            <h4>{t(`detailsFullCard.pattern${i}.title`)}</h4>
-                            <p>{t(`detailsFullCard.pattern${i}.text`)}</p>
-                        </li>
-                    ))}
-                </ul>
-                <p>{t('detailsFullCard.manual')}</p>
-                <p>{t('detailsFullCard.wireless')}</p>
+                <h2 style={{textAlign: "center"}}>{t('about.title')}</h2>
+                <p>{t('about.intro')}</p>
+
+                <div className="about-item">
+                    <h3>{t('about.offerFreeSurvey.title')}</h3>
+                    <p>{t('about.offerFreeSurvey.desc')}</p>
+                </div>
+
+                <div className="about-item">
+                    <h3>{t('about.inhouseTech.title')}</h3>
+                    <p>{t('about.inhouseTech.desc')}</p>
+                </div>
+
+                <div className="about-item">
+                    <h3>{t('about.whyChoose.title')}</h3>
+                    <ul>
+                        {(t('about.whyChoose.points', {returnObjects: true}) as string[]).map((pt, i) => (
+                            <li key={i}>{pt}</li>
+                        ))}
+
+                    </ul>
+                </div>
+
+                <p className="cta-text">{t('about.callToAction.text')}</p>
             </section>
+
 
             {/* FOOTER */}
             <footer className="footer">

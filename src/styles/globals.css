@@ -155,10 +155,10 @@ header {
     margin-bottom: 1rem;
 }
 
-.audience-item h3 {
+.audience-item p {
     font-size: 1rem;
     color: var(--text);
-    font-weight: 600;
+
 }
 
 
@@ -306,6 +306,14 @@ header {
             color: #434141;
         }
     }
+    .audience p,
+    .features p{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .details{
+        font-size: 1.125rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -379,16 +387,16 @@ header {
         max-width: 1200px;
         margin: 0 auto;
         border: 1px solid rgba(255, 255, 255, 0.25);
-        -webkit-backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(13px);
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
         color: #250202;
         position: relative;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(13px);
         background-color: rgba(255, 255, 255, 0.1); /* ha kell */
         mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 
-        h2, h4, p {
-            color: #250202;
+        h2, h3, h4, li, p {
+            color: #f5f5f5d6;
         }
     }
 
@@ -403,12 +411,25 @@ header {
         color: #250202;
     }
 
-    .audience h2,
+    .audience h2{
+        color:#d5cece;
+        font-size: 1.45rem;
+    }
+
     .audience h3,
     .audience p {
+        font-size: 18px;
         color: #250202;
     }
 
+    .features h2,
+    .features p{
+        font-size: 18px;
+        color: #250202;
+    }
+    .feature p{
+        font-weight:600;
+    }
 
     .feature-card {
         padding: 1rem;

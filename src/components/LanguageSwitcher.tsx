@@ -22,9 +22,6 @@ const LanguageSwitcher = () => {
             <Link href={buildPath('en')}>
                 <button className={currentLang === 'en' ? 'active' : ''}>🇬🇧</button>
             </Link>
-            <Link href={buildPath('hu')}>
-                <button className={currentLang === 'hu' ? 'active' : ''}>🇭🇺</button>
-            </Link>
         </div>
     );
 };

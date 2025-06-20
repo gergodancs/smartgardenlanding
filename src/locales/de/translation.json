@@ -19,35 +19,38 @@
     "title": "Allgemeine Gartenpflege",
     "desc": "Ein schöner Garten braucht kontinuierliche Pflege. Wir bieten regelmäßiges Rasenmähen, Rasenkantenschnitt, Unkrautentfernung, Rückschnitt von Büschen und Hecken sowie Abtransport von Grünabfällen an. Auf Wunsch übernehmen wir auch einmalige oder saisonale Gartenarbeiten."
   },
-  "details-button": "Details",
-  "detailsTitle": "So funktioniert Smart Garden",
-  "detailsIntro": "Unser System sorgt für eine perfekte Bewässerung – abgestimmt auf den Pflanzentyp und aktuelle Bodendaten.",
-  "detailsFullCard": {
-    "title": "So funktioniert Smart Garden im Detail",
-    "intro": "Smart Garden unterstützt 6 vorprogrammierte Bewässerungszonen, die jeweils einer Pflanzengruppe mit ähnlichem Wasserbedarf zugeordnet sind – z. B. Sukkulenten, Gemüse oder Blumen.",
-    "patternsTitle": "Für jede Zone können Sie aus drei flexiblen Bewässerungsmustern wählen:",
-    "pattern1": {
-      "title": "Feuchtigkeitsbasiertes, adaptives Muster",
-      "text": "Stellen Sie ein, bis zu welchem Feuchtigkeitswert gegossen werden soll, und definieren Sie Trockenphasen zwischen den Bewässerungen. Zusätzlich können Sie saisonale oder phasenbasierte Zyklen festlegen, die sich an die Bedürfnisse Ihrer Pflanzen im Jahresverlauf anpassen."
+  "about": {
+    "title": "Über uns",
+    "intro": "Wir sind Garten- und Bewässerungsexperten, spezialisiert auf smarte und nachhaltige Lösungen für Ihren grünen Außenbereich.",
+    "offerFreeSurvey": {
+      "title": "Kostenlose Vor-Ort-Beratung",
+      "desc": "Melden Sie sich per E‑Mail für eine unverbindliche Besichtigung – wir melden uns binnen 24 Stunden zurück und erstellen ein individuelles Angebot."
     },
-    "pattern2": {
-      "title": "Periodische Bewässerung mit Feuchtigkeitsgrenze",
-      "text": "Geben Sie an, dass alle X Tage bis zu einem bestimmten Maximalwert gegossen wird – ideal für Gärten, bei denen exakte Wassermengen wichtig sind, aber keine permanente Messung erforderlich ist."
+    "inhouseTech": {
+      "title": "Eigene, intelligente Systeme",
+      "desc": "Wir entwickeln und installieren vollautomatische, nachhaltige Bewässerungssysteme – perfekt kompatibel mit Marken wie Hunter oder Rain Bird, aber mit unserer eigenen smarten Steuerung. Unser Ziel: optimale Pflanzenversorgung bei minimalem Wasserverbrauch."
     },
-    "pattern3": {
-      "title": "Einfaches, zeitbasiertes Muster",
-      "text": "Legen Sie fest, wie oft und wie lange bewässert werden soll – z. B. alle 3 Tage für 10 Minuten. Diese einfache Variante eignet sich gut für robuste Pflanzen oder den Grundbetrieb."
+    "whyChoose": {
+      "title": "Warum mit uns?",
+      "points": [
+        "Gras bleibt intakt – wir verlegen alles unauffällig unter der Oberfläche.",
+        "Individuelle Planung für Ihren Garten – egal ob Neubau oder Nachrüstung.",
+        "Herbst- & Frühjahrs-Service: Wir starten und entleeren das System zuverlässig.",
+        "Transparenz & Verlässlichkeit – Sie wissen jederzeit, was passiert, und bekommen langfristige Betreuung."
+      ]
     },
-    "manual": "Darüber hinaus kann jede Zone manuell bewässert werden – die Anlage gießt dann bis zum eingestellten Feuchtigkeitswert.",
-    "wireless": "In größeren Gärten kommunizieren drahtlose Bodenfeuchtesensoren per WLAN mit der Steuereinheit. Sie versorgen sich selbstständig über Energierückgewinnung oder langlebige Batterien."
+    "callToAction": {
+      "text": "Starten Sie jetzt in ein sorgenfreies Gartenjahr – kontaktieren Sie uns für Ihre gratis Beratung!"
+    }
   },
+
   "audience": {
-    "title": "Für wen ist es geeignet?",
-    "balcony": "Ideal für Balkone und kleine Flächen.",
-    "garden": "Smarte Bewässerung für Privatgärten.",
-    "community": "Perfekt für Gemeinschaftsgärten.",
-    "farm": "Unterstützt Kleinbetriebe und Landwirtschaft."
+    "title": "Für wen bieten wir unsere Dienstleistungen an?",
+    "residential": "Privatpersonen mit Hausgärten oder Ferienhäusern, die einen gepflegten, gesunden Garten möchten – ohne ständiges manuelles Gießen. Wir übernehmen die Planung, Pflege und auf Wunsch die regelmäßige Wartung.",
+    "sharedYards": "Wohnanlagen oder Eigentümergemeinschaften mit gemeinschaftlich genutzten Grünflächen, wo eine effiziente Bewässerung und professionelle Pflege den Wert und das Erscheinungsbild der Immobilie steigern.",
+    "publicSpaces": "Gemeinden, Schulen, Unternehmen oder andere öffentliche Einrichtungen, die ihre Grünflächen funktional und attraktiv halten möchten – inklusive moderner, wasseroptimierter Bewässerungslösungen."
   },
+
   "footer": {
     "company": "SmartGarden",
     "email": "info@smartgarden.com",
