@@ -39,9 +39,11 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
             {/* HERO */}
             {/* HERO */}
             <section className="hero">
-                <div className="hero-inner glass-card">
+                <div className="hero-inner">
                     <div className="hero-text">
                         <h1>{t('hero.title')}</h1>
+                        <Image className="hero-img" style={{position: "relative"}} src="/images/sprinkler.jpg"
+                               alt={''} width={400} height={200}/>
                         <p className="hero-motto">{t('hero.motto')}</p>
                         <p className="hero-subline">{t('hero.subline')}</p>
 
@@ -53,12 +55,13 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
             <h2 className="service-title">{t('serviceTitle')}</h2>
             <section className="features">
                 {[1, 2, 3,].map((i) => (
-                    <div className="feature-card glass-card" key={i}>
+                    <div className="feature-card" key={i}>
                         <Image
+                            className="hero-img"
                             src={`/images/solsolar.png`}
                             alt={`Feature ${i}`}
-                            width={200}
-                            height={200}
+                            width={400}
+                            height={300}
                         />
                         <h2>{t(`service${i}.title`)}</h2>
                         <p>{t(`service${i}.desc`)}</p>
@@ -67,21 +70,20 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
             </section>
 
             {/* AUDIENCE */}
-            <section className="audience">
-                <h2>{t('audience.title')}</h2>
-                <div className="audience-grid">
-                    {['residential', 'sharedYards', 'publicSpaces'].map((key) => (
-                        <div className="audience-item glass-card" key={key}>
-                            <Image
-                                src={`/images/${key}.jpg`}
-                                alt={key}
-                                width={200}
-                                height={200}
-                            />
-                            <p>{t(`audience.${key}`)}</p>
-                        </div>
-                    ))}
-                </div>
+            <section className="features">
+                <h2 style={{fontSize: "22px", textAlign: "center", padding: "0 2rem"}}>{t('audience.title')}</h2>
+
+                {['residential', 'sharedYards', 'publicSpaces'].map((key) => (
+                    <div className="feature-card" key={key}>
+                        <Image
+                            src={`/images/${key}.jpg`}
+                            alt={key}
+                            width={400}
+                            height={300}
+                        />
+                        <p>{t(`audience.${key}`)}</p>
+                    </div>
+                ))}
             </section>
 
             {/* DETAILS */}
