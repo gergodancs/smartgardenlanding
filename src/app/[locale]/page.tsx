@@ -42,7 +42,7 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
                 <div className="hero-inner">
                     <div className="hero-text">
                         <h1>{t('hero.title')}</h1>
-                        <Image className="hero-img" style={{position: "relative"}} src="/images/sprinkler.jpg"
+                        <Image className="hero-img" style={{position: "relative"}} src="/images/sprinkler-with-lawn.jpg"
                                alt={''} width={400} height={200}/>
                         <p className="hero-motto">{t('hero.motto')}</p>
                         <p className="hero-subline">{t('hero.subline')}</p>

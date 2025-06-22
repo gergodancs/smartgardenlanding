@@ -1,7 +1,7 @@
 :root {
     --primary: #228b22;
-    --text: #222;
-    --bg: #f8f9f9;
+    --text: #272727c9;
+    --bg:  #d5d7d9;;
     --border: #e0e0e0;
     --max-width: 1200px;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #d5d7d9;
+    background-color: #b3b4b5;
     height: 100px;
     width: 100%;
     display: flex;
@@ -26,8 +26,6 @@ header {
 .header-text {
     font-weight: 600;
     font-size: 32px;
-
-    color: #272727c9;
 }
 
 /* ---------- HERO ---------- */
@@ -57,7 +55,6 @@ header {
 
 .hero p {
     font-size: 1.25rem;
-    color: #434141;
 }
 
 .hero-image img {
@@ -90,9 +87,7 @@ header {
 }
 
 .feature-card {
-
     text-align: center;
-
 }
 
 .feature-card:hover {
@@ -102,11 +97,9 @@ header {
 .feature-card h2 {
     margin-top: 1rem;
     font-size: 1.2rem;
-    color: #d5cece;
 }
 
 .feature-card p {
-    color: #d5cece;
     margin-top: 0.5rem;
 }
 
@@ -131,7 +124,6 @@ header {
 
 
 .audience-item {
-
     text-align: center;
     background: white;
     padding: 1.5rem;
@@ -153,17 +145,13 @@ header {
 
 .audience-item p {
     font-size: 1rem;
-    color: var(--text);
-
 }
-
 
 /* ---------- DETAILS ---------- */
 .details {
     padding: 4rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 .details h2 {
@@ -173,7 +161,6 @@ header {
 
 .details p {
     font-size: 1.1rem;
-    color: #444;
     margin-bottom: 1rem;
 }
 
@@ -187,20 +174,12 @@ header {
     margin-bottom: 2rem;
 }
 
-.details h4 {
-    font-size: 1.1rem;
-    color: var(--primary);
-    margin-bottom: 0.5rem;
-}
-
-
 .post-hero {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    color: #d5cece
 }
 
 
@@ -214,70 +193,15 @@ header {
     color: #666;
 }
 
-
-.language-switcher {
-    position: fixed;
-    top: 0.8rem;
-    right: 1.5rem;
-    border-radius: 999px;
-    padding: 0.4rem 0.6rem;
-    z-index: 1000;
-    display: flex;
-    gap: 0.4rem;
-}
-
-.language-switcher button {
-    background: none;
-    border: none;
-    font-size: 1.3rem;
-    cursor: pointer;
-    padding: 0.3rem;
-    border-radius: 50%;
-    transition: background 0.2s ease;
-    line-height: 1;
-}
-
-.language-switcher button:hover {
-    background-color: rgba(0, 0, 0, 0.07);
-}
-
-.language-switcher .active {
-    background-color: rgba(0, 0, 0, 0.15);
-}
-
-/* -- glass card -- */
-.glass-card {
-    background: rgba(255, 255, 255, 0.35);
-    border-radius: 16px;
-    padding: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    color: #fff;
-    transition: transform 0.3s ease;
-}
-
-.glass-card:hover {
-    transform: translateY(-4px);
-}
-
 .service-title {
     margin-bottom: 0;
     text-align: center;
 }
 
-
 @media (min-width: 768px) {
     .post-hero {
         height: 5rem;
         font-size: 24px;
-        color: #434141;
-    }
-
-
-    body {
-        background-color: #d5d7d9;
     }
 
     .hero {
@@ -308,7 +232,6 @@ header {
         h1 {
             font-size: 4rem;
             margin-top: 1rem;
-            color: #434141;
         }
     }
 
@@ -332,36 +255,8 @@ header {
 
     }
 
-    body {
-        background-color: currentColor;
-    }
-
-    /*body::before {*/
-    /*    content: "";*/
-    /*    position: fixed; !* fix helyzet, ne scrollozódjon *!*/
-    /*    top: 0;*/
-    /*    left: 0;*/
-    /*    width: 100vw;*/
-    /*    height: 100dvh; !* vagy 100svh / min(100vh, 100svh) ha kell *!*/
-    /*    background-image: url('../../public/bgkert.png'); !* FIGYELEM: ne használj `../../public`, csak gyökérből *!*/
-    /*    background-size: cover;*/
-    /*    background-position: center;*/
-    /*    background-repeat: no-repeat;*/
-    /*    z-index: -1;*/
-    /*}*/
-    .hero::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        backdrop-filter: blur(3px); /* a lényeg: elmosás */
-        background-color: rgba(255, 255, 255, 0.2); /* opcionális: egy kis halvány réteg */
-        z-index: -1; /* a tartalom mögé helyezés */
-        border-radius: inherit;
-        mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-        /*-webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);*/
+    img{
+        max-width: 100%;
     }
 
     .header-text {
@@ -369,13 +264,12 @@ header {
     }
 
     .service-title {
-        color: #d5cece;
         margin-bottom: 1.5rem;
     }
 
     .hero {
         z-index: 1;
-        padding: 2rem;
+        padding: 1rem 0;
         background-image: none;
 
         h1 {
@@ -385,37 +279,21 @@ header {
 
         p {
             padding: 1rem;
+            font-size: 18px;
         }
     }
 
     .hero h1,
     .hero p {
-        color: #d5cece;
         text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 
     }
 
-    .hero p {
-        font-size: 1.1rem;
-    }
-
-
     .details {
-        padding: 4rem 2rem;
+        padding: 0 2rem;
         max-width: 1200px;
         margin: 0 auto;
-        border: 1px solid rgba(255, 255, 255, 0.25);
-        -webkit-backdrop-filter: blur(13px);
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-        color: #250202;
-        position: relative;
-        backdrop-filter: blur(13px);
-        background-color: rgba(255, 255, 255, 0.1); /* ha kell */
-        mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 
-        h2, h3, h4, li, p {
-            color: #f5f5f5d6;
-        }
     }
 
     .audience {
@@ -423,35 +301,28 @@ header {
         max-width: 1200px;
         margin: 0 auto;
         text-align: center;
-
         position: relative;
-
-        color: #250202;
     }
 
     .audience h2 {
-        color: #d5cece;
-        font-size: 1.45rem;
+        font-size: 18px;
     }
 
     .audience h3,
     .audience p {
         font-size: 18px;
-        color: #250202;
     }
 
     .features {
-        padding-top: 0;
+        padding: 0;
     }
 
     .features h2,
     .features p {
         font-size: 18px;
-        color: #d5cece;
     }
 
     .features p {
-        font-weight: 600;
         padding: 1rem;
     }
 

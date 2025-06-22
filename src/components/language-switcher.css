@@ -1,0 +1,29 @@
+.language-switcher {
+    position: fixed;
+    top: 0.8rem;
+    right: 1.5rem;
+    border-radius: 999px;
+    padding: 0.4rem 0.6rem;
+    z-index: 1000;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.language-switcher button {
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 50%;
+    transition: background 0.2s ease;
+    line-height: 1;
+}
+
+.language-switcher button:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.language-switcher .active {
+    background-color: rgba(0, 0, 0, 0.15);
+}
