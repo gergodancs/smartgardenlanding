@@ -3,7 +3,7 @@
     --text: #272727c9;
     --bg:  #d5d7d9;;
     --border: #e0e0e0;
-    --max-width: 1200px;
+    --max-width: 1400px;
 }
 
 body {
@@ -31,7 +31,7 @@ header {
 /* ---------- HERO ---------- */
 .hero {
     padding: 4rem 2rem;
-    background-image: url('../../public/sprinkler.jpg');
+    background-image: url('../../public/sprinkler-with-lawn.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,110 +76,18 @@ header {
     background-color: #1e7a1e;
 }
 
-/* ---------- FEATURES ---------- */
-.features {
-    padding: 4rem 0;
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    max-width: var(--max-width);
-    margin: 0 auto;
-}
-
-.feature-card {
-    text-align: center;
-}
-
-.feature-card:hover {
-    transform: translateY(-4px);
-}
-
-.feature-card h2 {
-    margin-top: 1rem;
-    font-size: 1.2rem;
-}
-
-.feature-card p {
-    margin-top: 0.5rem;
-}
-
-/* ---------- AUDIENCE ---------- */
-.audience {
-    padding: 4rem 2rem;
-    text-align: center;
-}
-
-.audience h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-
-.audience-grid {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    max-width: var(--max-width);
-    margin: 0 auto;
-}
-
-
-.audience-item {
-    text-align: center;
-    background: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    border: 1px solid var(--border);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
-}
-
-.audience-item:hover {
-    transform: translateY(-4px);
-}
-
-.audience-item img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-}
-
-.audience-item p {
-    font-size: 1rem;
-}
-
-/* ---------- DETAILS ---------- */
-.details {
-    padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.details h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.details p {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-}
-
-.details ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 2rem 0;
-}
-
-.details li {
-    margin-bottom: 2rem;
-}
-
 .post-hero {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
+}
+
+.details{
+    width: 1400px;
+    padding: 1rem;
+    margin: 0 auto;
 }
 
 
@@ -234,7 +142,6 @@ header {
             margin-top: 1rem;
         }
     }
-
     .audience p,
     .features p {
         font-weight: 600;
@@ -243,6 +150,9 @@ header {
 
     .details {
         font-size: 1.125rem;
+    }
+    .service-title{
+        font-size: 2.5rem;
     }
 }
 
@@ -291,41 +201,10 @@ header {
 
     .details {
         padding: 0 2rem;
-        max-width: 1200px;
+        max-width: 80vw;
         margin: 0 auto;
 
     }
-
-    .audience {
-        padding: 0 2rem;
-        max-width: 1200px;
-        margin: 0 auto;
-        text-align: center;
-        position: relative;
-    }
-
-    .audience h2 {
-        font-size: 18px;
-    }
-
-    .audience h3,
-    .audience p {
-        font-size: 18px;
-    }
-
-    .features {
-        padding: 0;
-    }
-
-    .features h2,
-    .features p {
-        font-size: 18px;
-    }
-
-    .features p {
-        padding: 1rem;
-    }
-
 
 }
 

@@ -1,70 +1,53 @@
 {
   "hero": {
-    "title": "SmartGarden",
-    "motto": "We're not just optimizing irrigation – we're improving plant wellbeing.",
-    "subline": "Because sustainability isn't about saving money – it's about making smarter choices.",
-    "cta1": "Learn more",
-    "cta2": "Get in touch"
+    "title": "Optimal Irrigation for Your Garden",
+    "motto": "We don’t just optimize irrigation – we improve the living conditions of your plants.",
+    "subline": "Because sustainability doesn’t mean saving – it means making conscious choices."
   },
-  "subtitle": "Your plants – perfectly watered",
-  "cta": "Learn more",
-  "postImage": "Full control of your garden",
-  "feature1": {
-    "title": "Ideal environment",
-    "desc": "Smart Garden always provides the best conditions for your plants – whether indoors or outdoors."
+  "postImage": "Full Control Over Your Garden",
+  "postHero": "Your Specialist for Irrigation Systems and Garden Technology in Vienna and Lower Austria",
+  "serviceTitle": "Our Services",
+  "service1": {
+    "title": "Planning and Installation of Irrigation Systems",
+    "desc": "We plan and install automated irrigation systems for private gardens. The system consists of underground piping, water-saving sprinkler heads, and zone-based control. During installation, we take special care not to damage the lawn and to preserve the garden's appearance."
   },
-  "feature2": {
-    "title": "Zones by plant groups",
-    "desc": "Separate irrigation zones for each type of plant – because ferns aren’t cacti."
+  "service2": {
+    "title": "Maintenance and Repair of Systems",
+    "desc": "We ensure your system runs smoothly all year round: spring start-up, autumn drainage, adjustment or replacement of sprinklers, leak repair, and inspection and updating of controllers. Even if your system was not installed by us, we’re happy to help."
   },
-  "feature3": {
-    "title": "Flexible irrigation patterns",
-    "desc": "Soil moisture-based or timed watering with dry cycles considered."
+  "service3": {
+    "title": "General Garden Maintenance",
+    "desc": "A beautiful garden needs regular care. We offer lawn mowing, edge trimming, weed removal, pruning of shrubs and hedges, and disposal of green waste. On request, we can also take care of one-time or seasonal garden work."
   },
-  "feature4": {
-    "title": "Seasonal profiles",
-    "desc": "Irrigation profiles that adapt to the seasons or the plant’s growth stage."
-  },
-  "feature5": {
-    "title": "Eco-friendly operation",
-    "desc": "Avoids unnecessary watering – reducing your household’s water consumption."
-  },
-  "feature6": {
-    "title": "Compatible with your system",
-    "desc": "No need to replace your current system – we just make it smarter."
-  },
-  "feature7": {
-    "title": "Fully customizable",
-    "desc": "Tailored software for special gardens or agricultural needs."
-  },
-  "details-button": "Details",
-  "detailsTitle": "How Smart Garden works",
-  "detailsIntro": "Our system ensures perfect irrigation based on plant type and real-time soil data.",
-  "detailsFullCard": {
-    "title": "How Smart Garden works in detail",
-    "intro": "Smart Garden supports 6 pre-programmed irrigation zones, each dedicated to a group of plants with similar water needs – for example, succulents, vegetables, or flowers.",
-    "patternsTitle": "Within each zone, you can choose from three flexible watering patterns:",
-    "pattern1": {
-      "title": "Moisture-based adaptive pattern",
-      "text": "Configure the system to water until a desired soil moisture level is reached, and define a dry period between watering sessions. You can set up seasonal or phase-based cycles to adapt the watering behavior throughout the year, according to your plants' needs."
+  "about": {
+    "title": "About Us",
+    "intro": "We are garden and irrigation experts specializing in smart and sustainable solutions for your green outdoor space.",
+    "offerFreeSurvey": {
+      "title": "Free On-Site Consultation",
+      "desc": "Send us an email to request a non-binding on-site visit – we’ll get back to you within 24 hours with a tailored offer."
     },
-    "pattern2": {
-      "title": "Periodic watering with moisture cap",
-      "text": "Set a schedule that waters the plants every X days, but only up to a defined maximum moisture level — perfect for gardens where precise hydration is important, but less real-time data is needed."
+    "inhouseTech": {
+      "title": "Our Own Smart Systems",
+      "desc": "We develop and install fully automatic, sustainable irrigation systems – perfectly compatible with brands like Hunter or Rain Bird, but with our own smart controller. Our goal: optimal plant care with minimal water usage."
     },
-    "pattern3": {
-      "title": "Simple time-based pattern",
-      "text": "Choose how often and how long to water — for example, 10 minutes every 3 days. This basic mode works well for hardy plants or general maintenance."
+    "whyChoose": {
+      "title": "Why Choose Us?",
+      "points": [
+        "Grass remains intact – we discreetly install everything below the surface.",
+        "Tailored planning for your garden – whether new construction or retrofit.",
+        "Autumn & spring service: We reliably start up and drain your system.",
+        "Transparency & reliability – you always know what’s happening and receive long-term support."
+      ]
     },
-    "manual": "Additionally, every zone supports manual watering, allowing you to trigger irrigation instantly until the target moisture level is reached.",
-    "wireless": "In large gardens, wireless soil sensors communicate over Wi-Fi with the main control unit and are self-powered through energy harvesting or long-life batteries."
+    "callToAction": {
+      "text": "Start your worry-free gardening season now – contact us for your free consultation!"
+    }
   },
   "audience": {
-    "title": "Who is it for?",
-    "balcony": "Perfect for balconies and small spaces.",
-    "garden": "Smart watering for private gardens.",
-    "community": "Ideal for shared or community gardens.",
-    "farm": "Supports small-scale agriculture and farms."
+    "title": "Who Are Our Services For?",
+    "residential": "Private homeowners or holiday home owners who want a well-kept, healthy garden without the hassle of constant manual watering. We take care of planning, maintenance, and regular upkeep on request.",
+    "sharedYards": "Residential complexes or homeowner associations with shared green spaces where efficient irrigation and professional maintenance increase the property’s value and appearance.",
+    "publicSpaces": "Municipalities, schools, companies, or other public institutions that want to keep their green areas functional and attractive – including modern, water-optimized irrigation solutions."
   },
   "footer": {
     "company": "SmartGarden",
