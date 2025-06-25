@@ -1,6 +1,5 @@
 'use client';
 
-import {useTranslation} from 'react-i18next';
 import '@/lib/i18n.client';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import {use, useEffect, useState} from "react";
