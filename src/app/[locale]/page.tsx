@@ -10,6 +10,7 @@ import Details from "@/components/details/Details";
 import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 import Footer from "@/components/footer/Footer";
+import Packages from "@/components/packages/Packages";
 
 export default function HomePage({params}: { params: Promise<{ locale: string }> }) {
     const {locale} = use(params);
@@ -30,8 +31,9 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
             <LanguageSwitcher/>
             <Header/>
             <Hero/>
-            <Services/>
             <Audience/>
+            <Services/>
+            <Packages/>
             <Details/>
             <Footer/>
         </>

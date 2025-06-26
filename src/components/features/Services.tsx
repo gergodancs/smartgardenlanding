@@ -15,8 +15,8 @@ const Services = () => {
                             className="service-img"
                             src={`/images/service${i}.png`}
                             alt={`Feature ${i}`}
-                            width={400}
-                            height={300}
+                            width={180}
+                            height={180}
                         />
                         <h2>{t(`service${i}.title`)}</h2>
                         <p>{t(`service${i}.desc`)}</p>

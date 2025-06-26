@@ -2,7 +2,7 @@
     padding: 4rem 0;
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     max-width: var(--max-width);
     margin: 0 auto;
 }
@@ -37,10 +37,7 @@
         font-weight: 600;
         font-size: 18px;
     }
-    .service-img{
-        width: 350px;
-        border-radius: 12px 12px 0 0;
-    }
+
 }
 
 @media (max-width: 767px) {

@@ -44,6 +44,38 @@
     }
   },
 
+  "packages": {
+    "title": "Unsere Servicepakete",
+    "desc": "Von der einfachen Systemwartung bis zur umfassenden Gartenpflege – wählen Sie das passende Paket für Ihre Bedürfnisse.",
+
+    "basic": {
+      "title": "Basis-Paket",
+      "desc": "Systemkontrolle, Frühjahrsstart oder Herbstentleerung, Sprinklerjustierung und einfache Beratung."
+    },
+    "comfort": {
+      "title": "Komfort-Paket",
+      "desc": "Alle Leistungen des Basis-Pakets + Rasenpflege, Heckenschnitt und Unkrautentfernung – ideal für gepflegte Gärten."
+    },
+    "premium": {
+      "title": "Premium-Paket",
+      "desc": "Komplettpflege inklusive Frühjahrs- & Herbstservice, detaillierter Systemoptimierung, regelmäßiger Pflege & Urlaubsvertretung."
+    },
+
+    "spring": {
+      "title": "Frühlings-Startpaket",
+      "desc": "Saisonstart mit Systeminbetriebnahme, Heckenrückschnitt und gezielter Unkrautentfernung – alles für einen gesunden Start ins Gartenjahr."
+    },
+    "care": {
+      "title": "Rundum-sorglos Gartenpflege",
+      "desc": "Wochentliche Pflege (2–4 Std.): Rasenmähen, Schneiden, Säubern – ideal für dauerhafte Unterstützung ohne Aufwand."
+    },
+    "vacation": {
+      "title": "Urlaubsbetreuung",
+      "desc": "Wir übernehmen Gießen, Mähen und Pflege während Ihrer Abwesenheit – damit Ihr Garten in besten Händen bleibt."
+    }
+  },
+
+
   "audience": {
     "title": "Für wen bieten wir unsere Dienstleistungen an?",
     "residential": "Privatpersonen mit Hausgärten oder Ferienhäusern, die einen gepflegten, gesunden Garten möchten – ohne ständiges manuelles Gießen. Wir übernehmen die Planung, Pflege und auf Wunsch die regelmäßige Wartung.",
