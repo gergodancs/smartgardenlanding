@@ -11,7 +11,7 @@ const Header = () => {
                 height={90}
                 priority
             />
-            <div className="header-text">Bewässerung spezialist in Wien</div>
+            <div className="header-text">Ihr Bewässerungsspezialist in Wien</div>
         </header>
     )
 }

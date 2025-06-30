@@ -1,11 +1,11 @@
 {
   "hero": {
     "title": "Optimale Bewässerung für Ihren Garten",
-    "motto": "Wir optimieren nicht einfach die Bewässerung – wir verbessern die Lebensbedingungen der Pflanzen.",
-    "subline": "Denn Nachhaltigkeit bedeutet nicht sparen – sondern bewusst entscheiden."
+    "motto": "Wir optimieren nicht nur die Bewässerung – wir schaffen bessere Lebensbedingungen für Ihre Pflanzen",
+    "subline": "Nachhaltigkeit heißt nicht Verzicht – sondern bewusste Entscheidungen im Garten."
   },
   "postImage": "Volle Kontrolle über Ihren Garten",
-  "postHero": "Ihr Spezialist für Bewässerungssysteme und Gartentechnik in Wien und Niederösterreich",
+  "postHero": "Ihr Spezialist für Bewässerungssysteme und Gartentechnik in Hietzing und Wien",
   "serviceTitle": "Unsere Dienstleistungen",
   "service1": {
     "title": "Planung und Installation von Bewässerungssystemen",
@@ -16,7 +16,7 @@
     "desc": "Wir sorgen das ganze Jahr über für den einwandfreien Betrieb Ihres Systems: Frühjahrsinbetriebnahme, Entleerung im Herbst, Einstellung oder Austausch von Sprinklern, Reparatur von Lecks sowie Überprüfung und Aktualisierung der Steuergeräte. Auch wenn Ihr System nicht von uns stammt, helfen wir gerne weiter."
   },
   "service3": {
-    "title": "Allgemeine Gartenpflege",
+    "title": "Pflege & Schnittarbeiten",
     "desc": "Ein schöner Garten braucht kontinuierliche Pflege. Wir bieten regelmäßiges Rasenmähen, Rasenkantenschnitt, Unkrautentfernung, Rückschnitt von Büschen und Hecken sowie Abtransport von Grünabfällen an. Auf Wunsch übernehmen wir auch einmalige oder saisonale Gartenarbeiten."
   },
   "about": {
@@ -58,7 +58,7 @@
     },
     "premium": {
       "title": "Premium-Paket",
-      "desc": "Komplettpflege inklusive Frühjahrs- & Herbstservice, detaillierter Systemoptimierung, regelmäßiger Pflege & Urlaubsvertretung."
+      "desc": "Rundum-Service: Frühjahrs- und Herbstbetreuung, Systemoptimierung, regelmäßige Pflege und Urlaubsvertretung – alles aus einer Hand"
     },
 
     "spring": {
@@ -67,7 +67,7 @@
     },
     "care": {
       "title": "Rundum-sorglos Gartenpflege",
-      "desc": "Wochentliche Pflege (2–4 Std.): Rasenmähen, Schneiden, Säubern – ideal für dauerhafte Unterstützung ohne Aufwand."
+      "desc": "Wöchentliche Pflege (2–4 Std.): Rasenmähen, Schneiden, Säubern – ideal für dauerhafte Unterstützung ohne Aufwand."
     },
     "vacation": {
       "title": "Urlaubsbetreuung",
@@ -78,14 +78,14 @@
 
   "audience": {
     "title": "Für wen bieten wir unsere Dienstleistungen an?",
-    "residential": "Privatpersonen mit Hausgärten oder Ferienhäusern, die einen gepflegten, gesunden Garten möchten – ohne ständiges manuelles Gießen. Wir übernehmen die Planung, Pflege und auf Wunsch die regelmäßige Wartung.",
+    "residential": "\"residential\": \"Privathaushalte mit Garten oder Zweitwohnsitz, die eine schöne und gesunde Grünfläche ohne ständiges Gießen möchten. Besonders attraktiv für Kunden aus 1130 Wien – Hietzing: keine Anfahrtspauschale.",
     "sharedYards": "Wohnanlagen oder Eigentümergemeinschaften mit gemeinschaftlich genutzten Grünflächen, wo eine effiziente Bewässerung und professionelle Pflege den Wert und das Erscheinungsbild der Immobilie steigern.",
     "publicSpaces": "Gemeinden, Schulen, Unternehmen oder andere öffentliche Einrichtungen, die ihre Grünflächen funktional und attraktiv halten möchten – inklusive moderner, wasseroptimierter Bewässerungslösungen."
   },
 
   "footer": {
-    "company": "SmartGarden",
-    "email": "info@smartgarden.com",
+    "company": "Gartendienst Wien",
+    "email": "info@gartendienst-wien.at",
     "phone": "+43 660 123 4567"
   }
 }

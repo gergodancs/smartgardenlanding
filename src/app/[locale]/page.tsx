@@ -35,6 +35,12 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
             <Services/>
             <Packages/>
             <Details/>
+            <section className="local-highlight">
+                <p>
+                    Kunden in <strong>1130 Wien – Hietzing</strong> erhalten unsere Leistungen <strong>ohne
+                    Anfahrtspauschale</strong>.
+                </p>
+            </section>
             <Footer/>
         </>
     );

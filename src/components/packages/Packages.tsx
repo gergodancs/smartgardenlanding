@@ -10,7 +10,7 @@ const Packages = () => {
         <>
             <h2 className="service-title">{t('packages.title')}</h2>
             <p style={{textAlign: 'center', marginBottom: '2rem',fontSize: "18px"}}>{t('packages.desc')}</p>
-            <section className="features">
+            <section className="packages features">
                 {packageList.map((key) => (
                     <div className="feature-card" key={key}>
                         <h2>{t(`packages.${key}.title`)}</h2>

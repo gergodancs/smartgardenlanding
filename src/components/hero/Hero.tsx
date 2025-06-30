@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import {useTranslation} from "react-i18next";
+import './hero.css'
 
 const Hero = () => {
     const {t} = useTranslation();
@@ -16,7 +17,12 @@ const Hero = () => {
                     </div>
                 </div>
             </section>
-            <div className="post-hero">{t('postHero')}</div></>
+            <div className="post-hero">{t('postHero')}</div>
+            <a href="mailto:info@gartendienst-wien.at" className="cta-button">
+                Jetzt Kontakt aufnehmen
+            </a>
+
+        </>
     )
 }
 
