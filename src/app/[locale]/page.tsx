@@ -45,3 +45,5 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
         </>
     );
 }
+
+
