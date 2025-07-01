@@ -53,5 +53,8 @@
     "company": "SmartGarden",
     "email": "info@smartgarden.com",
     "phone": "+43 660 123 4567"
+  },
+  "banner": {
+    "text": "No travel fee in Hietzing · Lawn mowing from €0.18/m² · Irrigation optimization · Spring service · Vacation care"
   }
 }

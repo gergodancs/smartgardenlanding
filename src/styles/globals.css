@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: #b3b4b5;
-    height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -102,9 +102,18 @@ header {
     font-weight: bold;
     color: #2e7031;
 }
+.mobile-only {
+    display: block !important;
+}
 
+.desktop-only {
+    display: none !important;
+}
 
 @media (min-width: 768px) {
+
+
+
     .post-hero {
         height: 5rem;
         font-size: 24px;
@@ -153,6 +162,19 @@ header {
     .service-title {
         font-size: 2.5rem;
     }
+    .mobile-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: none !important;
+    }
+
+    .desktop-only {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -164,8 +186,9 @@ header {
 
     }
 
-    .hero-motto{
-        margin-bottom:0;
+
+    .hero-motto {
+        margin-bottom: 0;
     }
 
     img {

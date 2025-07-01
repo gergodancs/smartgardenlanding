@@ -44,12 +44,12 @@
         padding: 0;
     }
 
-    .features h2,
-    .features p {
+    .features h2{
         font-size: 18px;
     }
 
     .features p {
         padding: 1rem;
+        font-size: 16px;
     }
 }

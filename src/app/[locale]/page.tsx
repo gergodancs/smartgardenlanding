@@ -11,6 +11,7 @@ import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 import Footer from "@/components/footer/Footer";
 import Packages from "@/components/packages/Packages";
+import TopBanner from "@/components/top-banner/TopBanner";
 
 export default function HomePage({params}: { params: Promise<{ locale: string }> }) {
     const {locale} = use(params);
@@ -29,6 +30,7 @@ export default function HomePage({params}: { params: Promise<{ locale: string }>
     return (
         <>
             <LanguageSwitcher/>
+            <TopBanner/>
             <Header/>
             <Hero/>
             <Audience/>

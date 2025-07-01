@@ -1,0 +1,7 @@
+.package-card {
+    border: 1px solid #efefef;
+    background-color: #e5e1e1a1;
+    padding: 1rem;
+    border-radius: 12px;
+    min-height: 210px;
+}

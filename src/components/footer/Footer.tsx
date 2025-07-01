@@ -6,7 +6,7 @@ const Footer = () => {
     const {t} = useTranslation();
     return (
         <footer className="footer">
-            <p>{t('footer.company')} – {t('footer.email')} – {t('footer.phone')}</p>
+            <p>{t('footer.company')} – {t('footer.email')}</p>
         </footer>
     )
 }
