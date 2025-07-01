@@ -44,11 +44,12 @@
     }
   },
   "audience": {
-    "title": "Who Are Our Services For?",
-    "residential": "Private homeowners or holiday home owners who want a well-kept, healthy garden without the hassle of constant manual watering. We take care of planning, maintenance, and regular upkeep on request.",
-    "sharedYards": "Residential complexes or homeowner associations with shared green spaces where efficient irrigation and professional maintenance increase the property’s value and appearance.",
-    "publicSpaces": "Municipalities, schools, companies, or other public institutions that want to keep their green areas functional and attractive – including modern, water-optimized irrigation solutions."
+    "title": "Who are our services for?",
+    "residential": "Private households with a garden or second residence who need professional support for lawn mowing, hedge trimming, weeding, and automated irrigation – from installation and seasonal maintenance to system optimization. Especially attractive for customers in 1130 Vienna – Hietzing: no travel surcharge.",
+    "sharedYards": "Residential communities or homeowner associations with shared green areas that require regular care and reliable irrigation. We also inspect and upgrade outdated or underperforming irrigation systems to improve water efficiency and plant health.",
+    "publicSpaces": "Municipalities, schools, daycare centers or businesses looking to keep their green spaces functional and attractive – including professional garden maintenance and the installation or modernization of water-saving irrigation systems with year-round service."
   },
+
   "footer": {
     "company": "SmartGarden",
     "email": "info@smartgarden.com",

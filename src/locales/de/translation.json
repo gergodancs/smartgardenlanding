@@ -77,11 +77,12 @@
 
 
   "audience": {
-    "title": "Für wen bieten wir unsere Dienstleistungen an?",
-    "residential": "Privathaushalte mit Garten oder Zweitwohnsitz, die eine schöne und gesunde Grünfläche ohne ständiges Gießen möchten. Besonders attraktiv für Kunden aus 1130 Wien – Hietzing: keine Anfahrtspauschale.",
-    "sharedYards": "Wohnanlagen oder Eigentümergemeinschaften mit gemeinschaftlich genutzten Grünflächen, wo eine effiziente Bewässerung und professionelle Pflege den Wert und das Erscheinungsbild der Immobilie steigern.",
-    "publicSpaces": "Gemeinden, Schulen, Unternehmen oder andere öffentliche Einrichtungen, die ihre Grünflächen funktional und attraktiv halten möchten – inklusive moderner, wasseroptimierter Bewässerungslösungen."
+    "title": "Für wen sind unsere Dienstleistungen gedacht?",
+    "residential": "Privathaushalte mit Garten oder Zweitwohnsitz, die professionelle Unterstützung bei der Gartenpflege suchen – inklusive Rasenmähen, Heckenschnitt, Unkrautentfernung sowie der Installation, Wartung oder Optimierung automatischer Bewässerungssysteme. Besonders interessant für Kunden in 1130 Wien – Hietzing: keine Anfahrtspauschale.",
+    "sharedYards": "Wohnanlagen oder Eigentümergemeinschaften mit gemeinsam genutzten Grünflächen, die eine zuverlässige, regelmäßige Pflege sowie die Überprüfung und Modernisierung bestehender Bewässerungsanlagen benötigen – insbesondere bei veralteten oder ineffizienten Systemen.",
+    "publicSpaces": "Gemeinden, Schulen, Kindergärten oder Unternehmen, die ihre Außenanlagen funktional und repräsentativ halten möchten – mit professioneller Gartenpflege und modernen, wassersparenden Bewässerungslösungen inklusive saisonalem Service."
   },
+
 
   "footer": {
     "company": "Gartendienst Wien",

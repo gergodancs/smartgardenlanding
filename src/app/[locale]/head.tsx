@@ -26,6 +26,7 @@ export default function Head() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
             />
             <meta name="google-site-verification" content="kMtO4-ZERpwNndx0dOMbSwlSsSgi47KYoCy2OoMM0C0" />
+
         </>
     );
 }
