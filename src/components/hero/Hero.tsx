@@ -15,11 +15,12 @@ const Hero = () => {
               className="hero-img"
               style={{ position: "relative" }}
               src="/images/sprinkler-with-lawn.jpg"
-              alt={""}
+              alt={"Rasen bewässerung"}
               width={400}
               height={400}
             />
             <p className="hero-motto">{t("hero.motto")}</p>
+            <p className="hero-motto">{t("hero.subline")}</p>
           </div>
         </div>
       </section>

@@ -1,11 +1,11 @@
 {
   "hero": {
-    "title": "Optimale Bewässerung für Ihren Garten",
-    "motto": "Wir optimieren nicht nur die Bewässerung – wir schaffen bessere Lebensbedingungen für Ihre Pflanzen",
-    "subline": "Nachhaltigkeit heißt nicht Verzicht – sondern bewusste Entscheidungen im Garten."
+    "title": "Wir retten Ihren Garten",
+    "motto": "Aus verwildert wird gepflegt – wir schaffen die Basis für Ihren Traumgarten.",
+    "subline": "Ob Aufräumen, Rückschnitt oder komplette Neugestaltung – wir bringen Ihren Garten wieder in Form."
   },
-  "postImage": "Volle Kontrolle über Ihren Garten",
-  "postHero": "Ihr Spezialist für Bewässerungssysteme und Gartentechnik in Hietzing und Wien",
+  "postImage": "Vorher-Nachher: Ihr Garten in neuem Glanz",
+  "postHero": "Ihr Partner für Gartenrettung, Neuanlage und Bewässerungssysteme in Wien und Umgebung",
   "serviceTitle": "Unsere Dienstleistungen",
   "service1": {
     "title": "Planung und Installation von Bewässerungssystemen",
@@ -21,26 +21,26 @@
   },
   "about": {
     "title": "Über uns",
-    "intro": "Wir sind Garten- und Bewässerungsexperten, spezialisiert auf smarte und nachhaltige Lösungen für Ihren grünen Außenbereich.",
+    "intro": "Wir sind Spezialisten für Gartenrettung und Neugestaltung: Wir bringen verwilderte, vernachlässigte Gärten zurück in Form und schaffen die Basis für einen schönen, gepflegten Außenbereich. Zusätzlich planen und installieren wir moderne Bewässerungssysteme für eine nachhaltige Pflege.",
     "offerFreeSurvey": {
       "title": "Kostenlose Vor-Ort-Beratung",
-      "desc": "Melden Sie sich per E‑Mail für eine unverbindliche Besichtigung – wir melden uns binnen 24 Stunden zurück und erstellen ein individuelles Angebot."
+      "desc": "Melden Sie sich per E-Mail für eine unverbindliche Besichtigung – wir melden uns binnen 24 Stunden zurück und erstellen ein individuelles Angebot."
     },
     "inhouseTech": {
-      "title": "Eigene, intelligente Systeme",
-      "desc": "Wir entwickeln und installieren vollautomatische, nachhaltige Bewässerungssysteme – perfekt kompatibel mit Marken wie Hunter oder Rain Bird, aber mit unserer eigenen smarten Steuerung. Unser Ziel: optimale Pflanzenversorgung bei minimalem Wasserverbrauch."
+      "title": "Unsere Leistungen",
+      "desc": "Von der gründlichen Gartenaufräumung bis zur kompletten Neuanlage – wir übernehmen alle Arbeitsschritte: Unkrautentfernung, Strauch- und Baumschnitt, Bodenvorbereitung sowie die Planung von Bewässerungssystemen. So entsteht die perfekte Grundlage für Ihre individuelle Gartengestaltung."
     },
     "whyChoose": {
       "title": "Warum mit uns?",
       "points": [
-        "Gras bleibt intakt – wir verlegen alles unauffällig unter der Oberfläche.",
-        "Individuelle Planung für Ihren Garten – egal ob Neubau oder Nachrüstung.",
-        "Herbst- & Frühjahrs-Service: Wir starten und entleeren das System zuverlässig.",
-        "Transparenz & Verlässlichkeit – Sie wissen jederzeit, was passiert, und bekommen langfristige Betreuung."
+        "Spezialisiert auf die Rettung und Neugestaltung von verwilderten Gärten.",
+        "Individuelle Lösungen – ob kleine Gärten, große Grundstücke oder komplette Neuanlage.",
+        "Transparenz & Verlässlichkeit – klare Absprachen und faire Preise.",
+        "Langfristige Betreuung möglich – vom ersten Aufräumen bis zur regelmäßigen Pflege."
       ]
     },
     "callToAction": {
-      "text": "Starten Sie jetzt in ein sorgenfreies Gartenjahr – kontaktieren Sie uns für Ihre gratis Beratung!"
+      "text": "Holen Sie sich jetzt ein unverbindliches Angebot – und lassen Sie Ihren Garten in neuem Glanz erstrahlen!"
     }
   },
 
@@ -85,9 +85,9 @@
   "footer": {
     "company": "Gartendienst Wien",
     "email": "info@gartendienst-wien.at",
-    "phone": "+43 660 123 4567"
+    "phone": "+436608956377"
   },
   "banner": {
-    "text": "Keine Anfahrtskosten in Hietzing · Rasenmähen ab 0,18 €/m² · Optimale Bewässerung · Frühjahrsservice · Urlaubsbetreuung"
+    "text": "Keine Anfahrtskosten in Hietzing · Rasenmähen · Optimale Bewässerung · Frühjahrsservice · Gartenrettung"
   }
 }

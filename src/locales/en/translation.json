@@ -1,11 +1,11 @@
 {
   "hero": {
-    "title": "Optimal Irrigation for Your Garden",
-    "motto": "We don’t just optimize irrigation – we improve the living conditions of your plants.",
-    "subline": "Because sustainability doesn’t mean saving – it means making conscious choices."
+    "title": "We Rescue Your Garden",
+    "motto": "From overgrown to well-kept – we create the foundation for your dream garden.",
+    "subline": "Whether it’s clearing, pruning or a complete redesign – we bring your garden back into shape."
   },
-  "postImage": "Full Control Over Your Garden",
-  "postHero": "Your Specialist for Irrigation Systems and Garden Technology in Vienna and Lower Austria",
+  "postImage": "Before & After: Your garden in new splendor",
+  "postHero": "Your partner for garden rescue, redesign and irrigation systems in Vienna and surroundings",
   "serviceTitle": "Our Services",
   "service1": {
     "title": "Planning and Installation of Irrigation Systems",
@@ -20,27 +20,27 @@
     "desc": "A beautiful garden needs regular care. We offer lawn mowing, edge trimming, weed removal, pruning of shrubs and hedges, and disposal of green waste. On request, we can also take care of one-time or seasonal garden work."
   },
   "about": {
-    "title": "About Us",
-    "intro": "We are garden and irrigation experts specializing in smart and sustainable solutions for your green outdoor space.",
+    "title": "About us",
+    "intro": "We specialize in garden rescue and redesign: bringing overgrown and neglected gardens back into shape and creating the foundation for a beautiful outdoor space. In addition, we design and install modern irrigation systems for sustainable care.",
     "offerFreeSurvey": {
-      "title": "Free On-Site Consultation",
-      "desc": "Send us an email to request a non-binding on-site visit – we’ll get back to you within 24 hours with a tailored offer."
+      "title": "Free on-site consultation",
+      "desc": "Contact us by e-mail for a non-binding inspection – we’ll get back to you within 24 hours and provide you with an individual quote."
     },
     "inhouseTech": {
-      "title": "Our Own Smart Systems",
-      "desc": "We develop and install fully automatic, sustainable irrigation systems – perfectly compatible with brands like Hunter or Rain Bird, but with our own smart controller. Our goal: optimal plant care with minimal water usage."
+      "title": "Our services",
+      "desc": "From thorough garden clearance to complete redesign – we take care of every step: weed removal, shrub and tree pruning, soil preparation as well as the planning of irrigation systems. This way we create the perfect basis for your individual garden project."
     },
     "whyChoose": {
-      "title": "Why Choose Us?",
+      "title": "Why choose us?",
       "points": [
-        "Grass remains intact – we discreetly install everything below the surface.",
-        "Tailored planning for your garden – whether new construction or retrofit.",
-        "Autumn & spring service: We reliably start up and drain your system.",
-        "Transparency & reliability – you always know what’s happening and receive long-term support."
+        "Specialized in rescuing and redesigning overgrown gardens.",
+        "Tailor-made solutions – for small gardens, large plots or complete new layouts.",
+        "Transparent & reliable – clear agreements and fair pricing.",
+        "Long-term support available – from initial clearance to regular maintenance."
       ]
     },
     "callToAction": {
-      "text": "Start your worry-free gardening season now – contact us for your free consultation!"
+      "text": "Get your free quote today – and let your garden shine in new splendor!"
     }
   },
   "packages": {
@@ -83,7 +83,7 @@
   "footer": {
     "company": "SmartGarden",
     "email": "info@smartgarden.com",
-    "phone": "+43 660 123 4567"
+    "phone": "+436608956377"
   },
   "banner": {
     "text": "No travel fee in Hietzing · Lawn mowing from €0.18/m² · Irrigation optimization · Spring service · Vacation care"
