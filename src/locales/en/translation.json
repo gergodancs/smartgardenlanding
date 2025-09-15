@@ -43,6 +43,36 @@
       "text": "Start your worry-free gardening season now – contact us for your free consultation!"
     }
   },
+  "packages": {
+    "title": "Our Service Packages",
+    "desc": "From simple system maintenance to comprehensive garden care – choose the package that best suits your needs.",
+
+    "basic": {
+      "title": "Basic Package",
+      "desc": "System check, spring start-up or autumn draining, sprinkler adjustment, and basic consultation."
+    },
+    "comfort": {
+      "title": "Comfort Package",
+      "desc": "All services from the Basic Package + lawn care, hedge trimming, and weed removal – ideal for well-maintained gardens."
+    },
+    "premium": {
+      "title": "Premium Package",
+      "desc": "All-round service: spring and autumn care, system optimization, regular maintenance, and holiday replacement – everything from a single source."
+    },
+
+    "spring": {
+      "title": "Spring Start Package",
+      "desc": "Season opening with system start-up, hedge pruning, and targeted weed removal – everything for a healthy start to the gardening year."
+    },
+    "care": {
+      "title": "All-round Garden Care",
+      "desc": "Weekly maintenance (2–4 hrs): mowing, trimming, cleaning – ideal for long-term support without effort."
+    },
+    "vacation": {
+      "title": "Cleanup & Fresh Start",
+      "desc": "We take care of cleaning up and restoring neglected gardens and yards – laying the foundation for a fresh start, so you don’t have to handle the toughest and least enjoyable tasks."
+    }
+  },
   "audience": {
     "title": "Who are our services for?",
     "residential": "Private households with a garden or second residence who need professional support for lawn mowing, hedge trimming, weeding, and automated irrigation – from installation and seasonal maintenance to system optimization. Especially attractive for customers in 1130 Vienna – Hietzing: no travel surcharge.",

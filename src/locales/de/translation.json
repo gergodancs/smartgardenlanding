@@ -70,11 +70,10 @@
       "desc": "Wöchentliche Pflege (2–4 Std.): Rasenmähen, Schneiden, Säubern – ideal für dauerhafte Unterstützung ohne Aufwand."
     },
     "vacation": {
-      "title": "Urlaubsbetreuung",
-      "desc": "Wir übernehmen Gießen, Mähen und Pflege während Ihrer Abwesenheit – damit Ihr Garten in besten Händen bleibt."
+      "title": "Grundreinigung & Neuanfang",
+      "desc": "Wir kümmern uns um die Reinigung und Instandsetzung vernachlässigter Gärten und Höfe – schaffen die Basis für einen Neuanfang, damit Sie nicht die unangenehmsten Arbeiten erledigen müssen."
     }
   },
-
 
   "audience": {
     "title": "Für wen sind unsere Dienstleistungen gedacht?",
@@ -82,7 +81,6 @@
     "sharedYards": "Wohnanlagen oder Eigentümergemeinschaften mit gemeinsam genutzten Grünflächen, die eine zuverlässige, regelmäßige Pflege sowie die Überprüfung und Modernisierung bestehender Bewässerungsanlagen benötigen – insbesondere bei veralteten oder ineffizienten Systemen.",
     "publicSpaces": "Gemeinden, Schulen, Kindergärten oder Unternehmen, die ihre Außenanlagen funktional und repräsentativ halten möchten – mit professioneller Gartenpflege und modernen, wassersparenden Bewässerungslösungen inklusive saisonalem Service."
   },
-
 
   "footer": {
     "company": "Gartendienst Wien",
