@@ -26,6 +26,8 @@ export const metadata = {
     "Gartenpflege Burgenland",
     "Gartnerei",
     "Garten bewässerung",
+    "bewässerungsanlage wartung wien",
+    "bewässerungsanlage warten wien",
   ],
   authors: [{ name: "Gartendienst Wien", url: "https://gartendienst-wien.at" }],
   creator: "Gartendienst Wien",
