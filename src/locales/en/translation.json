@@ -5,19 +5,27 @@
     "subline": "Whether it’s clearing, pruning or a complete redesign – we bring your garden back into shape."
   },
   "postImage": "Before & After: Your garden in new splendor",
-  "postHero": "Your partner for garden rescue, redesign and irrigation systems in Vienna and surroundings",
+  "postHero": "Your Partner for Garden Rescue, Irrigation Systems, Fencing, and Terrace Construction in Vienna & Surrounding Areas",
   "serviceTitle": "Our Services",
   "service1": {
     "title": "Planning and Installation of Irrigation Systems",
-    "desc": "We plan and install automated irrigation systems for private gardens. The system consists of underground piping, water-saving sprinkler heads, and zone-based control. During installation, we take special care not to damage the lawn and to preserve the garden's appearance."
+    "desc": "We plan and install professional automated irrigation systems using industry-leading components from Hunter, Rain Bird, and Gardena. Our systems feature water-saving technology and zone-based control, installed with precision to protect your existing lawn.",
+    "alt": "Hunter and Rain Bird irrigation system installation Vienna und Umgebung"
   },
   "service2": {
     "title": "Maintenance and Repair of Systems",
-    "desc": "We ensure your system runs smoothly all year round: spring start-up, autumn drainage, adjustment or replacement of sprinklers, leak repair, and inspection and updating of controllers. Even if your system was not installed by us, we’re happy to help."
+    "desc": "We ensure your system runs smoothly all year round, providing expert service for Hunter, Rain Bird, and Gardena equipment. From spring start-up to leak repairs and controller updates, we handle it all – even if we didn't install the original system.",
+    "alt": "Gardena and Hunter irrigation repair and maintenance"
   },
   "service3": {
     "title": "General Garden Maintenance",
-    "desc": "A beautiful garden needs regular care. We offer lawn mowing, edge trimming, weed removal, pruning of shrubs and hedges, and disposal of green waste. On request, we can also take care of one-time or seasonal garden work."
+    "desc": "A beautiful garden needs regular care. We offer lawn mowing, edge trimming, weed removal, pruning of shrubs and hedges, and disposal of green waste. On request, we can also take care of one-time or seasonal garden work.",
+    "alt": "Professional garden maintenance and lawn care"
+  },
+  "service4": {
+    "title": "Fencing, Railings & Terrace Construction",
+    "desc": "We build the solid structure of your garden. Our service includes the professional installation and repair of fences and railings made of various materials, as well as expert terrace construction. From sturdy boundary fencing to creating a cozy outdoor living space – we ensure durability, safety, and a modern aesthetic for your home.",
+    "alt": "Fencing and terrace construction specialist"
   },
   "about": {
     "title": "About us",
@@ -27,16 +35,17 @@
       "desc": "Contact us by e-mail for a non-binding inspection – we’ll get back to you within 24 hours and provide you with an individual quote."
     },
     "inhouseTech": {
-      "title": "Our services",
-      "desc": "From thorough garden clearance to complete redesign – we take care of every step: weed removal, shrub and tree pruning, soil preparation as well as the planning of irrigation systems. This way we create the perfect basis for your individual garden project."
+      "title": "Our Craftsmanship & Expertise",
+      "desc": "We offer a complete solution for your outdoor space. From heavy-duty terrain leveling and soil preparation to the professional construction of fences, terraces, and the installation of smart irrigation systems from Hunter and Rain Bird. We handle precise pruning, expert weed removal, and soil conditioning for new lawns or planting. Using modern machinery and technical expertise, we create the lasting structure that transforms your garden into a premium living space."
     },
     "whyChoose": {
-      "title": "Why choose us?",
+      "title": "Why Choose Us?",
       "points": [
-        "Specialized in rescuing and redesigning overgrown gardens.",
-        "Tailor-made solutions – for small gardens, large plots or complete new layouts.",
-        "Transparent & reliable – clear agreements and fair pricing.",
-        "Long-term support available – from initial clearance to regular maintenance."
+        "Garden Rescue Experts: We transform overgrown areas into pristine outdoor living spaces.",
+        "Professional Equipment: Certified installation of Hunter, Rain Bird, and Gardena systems.",
+        "Full Service: From terrain leveling and fencing to precise lawn and hedge maintenance.",
+        "Local & Responsive: Free on-site visits in Vienna with a 24-hour response guarantee.",
+        "Transparent Pricing: Clear quotes and fair rates – no hidden costs for your garden's fresh start."
       ]
     },
     "callToAction": {
@@ -46,7 +55,6 @@
   "packages": {
     "title": "Our Service Packages",
     "desc": "From simple system maintenance to comprehensive garden care – choose the package that best suits your needs.",
-
     "basic": {
       "title": "Basic Package",
       "desc": "System check, spring start-up or autumn draining, sprinkler adjustment, and basic consultation."
@@ -59,7 +67,6 @@
       "title": "Premium Package",
       "desc": "All-round service: spring and autumn care, system optimization, regular maintenance, and holiday replacement – everything from a single source."
     },
-
     "spring": {
       "title": "Spring Start Package",
       "desc": "Season opening with system start-up, hedge pruning, and targeted weed removal – everything for a healthy start to the gardening year."
@@ -76,16 +83,18 @@
   "audience": {
     "title": "Who are our services for?",
     "residential": "Private households with a garden or second residence who need professional support for lawn mowing, hedge trimming, weeding, and automated irrigation – from installation and seasonal maintenance to system optimization. Especially attractive for customers in 1130 Vienna – Hietzing: no travel surcharge.",
-    "sharedYards": "Residential communities or homeowner associations with shared green areas that require regular care and reliable irrigation. We also inspect and upgrade outdated or underperforming irrigation systems to improve water efficiency and plant health.",
-    "publicSpaces": "Municipalities, schools, daycare centers or businesses looking to keep their green spaces functional and attractive – including professional garden maintenance and the installation or modernization of water-saving irrigation systems with year-round service."
+    "residentialAlt": "Private garden maintenance and lawn in Vienna and surroundings",
+    "sharedYards": "Residential complexes or homeowner associations with shared green areas that require regular care and reliable irrigation. We also inspect and upgrade outdated or underperforming irrigation systems to improve water efficiency and plant health.",
+    "sharedYardsAlt": "Green space maintenance for residential complexes and property management",
+    "publicSpaces": "Municipalities, schools, daycare centers or businesses looking to keep their green spaces functional and attractive – including professional garden maintenance and the installation or modernization of water-saving irrigation systems with year-round service.",
+    "publicSpacesAlt": "Garden maintenance for companies and public institutions"
   },
-
   "footer": {
-    "company": "SmartGarden",
-    "email": "info@smartgarden.com",
+    "company": "Gartendienst Wien",
+    "email": "info@gartendienst-wien.at",
     "phone": "+436608956377"
   },
   "banner": {
-    "text": "No travel fee in Hietzing · Lawn mowing from €0.18/m² · Irrigation optimization · Spring service · Vacation care"
+    "text": "🌷 Season start 2026: Book your appointment for spring service now! – Free on-site consultation in Vienna and surroundings"
   }
 }

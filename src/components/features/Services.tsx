@@ -8,13 +8,13 @@ const Services = () => {
   return (
     <>
       <h2 className="service-title">{t("serviceTitle")}</h2>
-      <section className="features">
-        {[1, 2, 3].map((i) => (
+      <section className="features services-grid">
+        {[1, 2, 3, 4].map((i) => (
           <div className="feature-card" key={i}>
             <Image
               className="service-img"
               src={`/images/service${i}.png`}
-              alt={t(`service${i}.desc`)}
+              alt={t(`service${i}.alt`)}
               width={180}
               height={180}
             />

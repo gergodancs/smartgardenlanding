@@ -1,55 +1,66 @@
 .features {
-    padding: 4rem 0;
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    max-width: var(--max-width);
-    margin: 0 auto;
+  padding: 4rem 0;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .feature-card {
-    text-align: center;
+  text-align: center;
 }
 
 .feature-card:hover {
-    transform: translateY(-4px);
+  transform: translateY(-4px);
 }
 
 .feature-card h2 {
-    margin-top: 1rem;
-    font-size: 1.2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
 .feature-card p {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 @media (min-width: 768px) {
-    .feature-card {
-        border: 1px solid #efefef;
-        background-color: #e5e1e1a1;
-        padding: 1rem;
-        border-radius: 12px;
-        box-shadow: 5px 5px 7px 0px #808080a3;
-    }
+  .feature-card {
+    border: 1px solid #efefef;
+    background-color: #e5e1e1a1;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 5px 5px 7px 0px #808080a3;
+  }
 
-    .features p {
-        font-size: 18px;
-    }
-
+  .features p {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 767px) {
-    .features {
-        padding: 0;
-    }
+  .features {
+    padding: 0;
+  }
 
-    .features h2{
-        font-size: 18px;
-    }
+  .features h2 {
+    font-size: 18px;
+  }
 
-    .features p {
-        padding: 1rem;
-        font-size: 16px;
-    }
+  .features p {
+    padding: 1rem;
+    font-size: 16px;
+  }
+}
+
+/* Ez csak ott fog élni, ahol mindkét osztály rajta van a szekción */
+.features.services-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media (min-width: 1100px) {
+  .features.services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+  }
 }

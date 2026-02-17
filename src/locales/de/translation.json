@@ -5,19 +5,27 @@
     "subline": "Ob Aufräumen, Rückschnitt oder komplette Neugestaltung – wir bringen Ihren Garten wieder in Form."
   },
   "postImage": "Vorher-Nachher: Ihr Garten in neuem Glanz",
-  "postHero": "Ihr Partner für Gartenrettung, Neuanlage und Bewässerungssysteme in Wien und Umgebung",
+  "postHero": "Gartenrettung & Outdoor-Bau: Ihr Experte für Bewässerung, Zäune und Terrassen in Wien und Umgebung",
   "serviceTitle": "Unsere Dienstleistungen",
   "service1": {
     "title": "Planung und Installation von Bewässerungssystemen",
-    "desc": "Wir planen und installieren automatisierte Bewässerungssysteme für private Gärten. Das System besteht aus unterirdischen Rohrleitungen, wassersparenden Sprinklerköpfen und zonenbasierter Steuerung. Bei der Installation achten wir besonders darauf, den Rasen nicht zu beschädigen und das Erscheinungsbild des Gartens zu erhalten."
+    "desc": "Wir planen und installieren automatisierte Bewässerungssysteme mit hochwertigen Komponenten von Hunter, Rain Bird und Gardena. Das System besteht aus wassersparenden Sprinklerköpfen und zonenbasierter Steuerung. Bei der Installation achten wir besonders darauf, das Erscheinungsbild Ihres Gartens zu erhalten.",
+    "alt": "Installation von Hunter und Rain Bird Bewässerungssystemen Wien"
   },
   "service2": {
     "title": "Wartung und Reparatur von Systemen",
-    "desc": "Wir sorgen das ganze Jahr über für den einwandfreien Betrieb Ihres Systems: Frühjahrsinbetriebnahme, Entleerung im Herbst, Einstellung oder Austausch von Sprinklern, Reparatur von Lecks sowie Überprüfung und Aktualisierung der Steuergeräte. Auch wenn Ihr System nicht von uns stammt, helfen wir gerne weiter."
+    "desc": "Wir sorgen für den einwandfreien Betrieb Ihrer Anlage, egal ob Hunter, Rain Bird oder Gardena: Frühjahrsinbetriebnahme, Entleerung im Herbst, Austausch von Regnern sowie Reparatur von Lecks. Auch wenn Ihr System nicht von uns stammt, helfen wir Ihnen fachgerecht weiter.",
+    "alt": "Wartung und Reparatur von Gardena und Hunter Anlagen"
   },
   "service3": {
     "title": "Pflege & Schnittarbeiten",
-    "desc": "Ein schöner Garten braucht kontinuierliche Pflege. Wir bieten regelmäßiges Rasenmähen, Rasenkantenschnitt, Unkrautentfernung, Rückschnitt von Büschen und Hecken sowie Abtransport von Grünabfällen an. Auf Wunsch übernehmen wir auch einmalige oder saisonale Gartenarbeiten."
+    "desc": "Ein schöner Garten braucht kontinuierliche Pflege. Wir bieten regelmäßiges Rasenmähen, Rasenkantenschnitt, Unkrautentfernung, Rückschnitt von Büschen und Hecken sowie Abtransport von Grünabfällen an. Auf Wunsch übernehmen wir auch einmalige oder saisonale Gartenarbeiten.",
+    "alt": "Professionelle Gartenpflege und Rasenmähen"
+  },
+  "service4": {
+    "title": "Zaunbau, Geländer & Terrassenbau",
+    "desc": "Wir gestalten die feste Struktur Ihres Gartens. Unser Service umfasst die professionelle Installation und Reparatur von Zäunen und Geländern aus verschiedenen Materialien sowie den fachgerechten Bau von Terrassen. Von der stabilen Grundstücksbegrenzung bis hin zur gemütlichen Wohlfühloase – wir sorgen für Langlebigkeit, Sicherheit und eine moderne Optik.",
+    "alt": "Zaunbau und Terrassenbau Spezialist"
   },
   "about": {
     "title": "Über uns",
@@ -27,16 +35,17 @@
       "desc": "Melden Sie sich per E-Mail für eine unverbindliche Besichtigung – wir melden uns binnen 24 Stunden zurück und erstellen ein individuelles Angebot."
     },
     "inhouseTech": {
-      "title": "Unsere Leistungen",
-      "desc": "Von der gründlichen Gartenaufräumung bis zur kompletten Neuanlage – wir übernehmen alle Arbeitsschritte: Unkrautentfernung, Strauch- und Baumschnitt, Bodenvorbereitung sowie die Planung von Bewässerungssystemen. So entsteht die perfekte Grundlage für Ihre individuelle Gartengestaltung."
+      "title": "Unser Handwerk & Fachkompetenz",
+      "desc": "Wir bieten Ihnen eine Komplettlösung für Ihren Außenbereich. Von der groben Geländegestaltung und Bodenplanierung über den professionellen Zaun- und Terrassenbau bis hin zur Installation intelligenter Bewässerungssysteme von Hunter und Rain Bird. Wir kümmern uns um den präzisen Rückschnitt, die fachgerechte Unkrautentfernung und die Vorbereitung des Bodens für Rollrasen oder Neupflanzungen. Mit modernen Maschinen und handwerklichem Geschick schaffen wir die dauerhafte Struktur, die Ihren Garten zu einem echten Lebensraum macht."
     },
     "whyChoose": {
-      "title": "Warum mit uns?",
+      "title": "Warum wir Ihr Partner sind",
       "points": [
-        "Spezialisiert auf die Rettung und Neugestaltung von verwilderten Gärten.",
-        "Individuelle Lösungen – ob kleine Gärten, große Grundstücke oder komplette Neuanlage.",
-        "Transparenz & Verlässlichkeit – klare Absprachen und faire Preise.",
-        "Langfristige Betreuung möglich – vom ersten Aufräumen bis zur regelmäßigen Pflege."
+        "Spezialisten für Gartenrettung: Wir verwandeln verwilderte Flächen in gepflegte Wohlfühloasen.",
+        "Fachgerechte Technik: Zertifizierte Installation von Hunter, Rain Bird und Gardena Systemen.",
+        "Alles aus einer Hand: Von Erdarbeiten und Zaunbau bis hin zur fein abgestimmten Rasenpflege.",
+        "Regional & Schnell: Kostenlose Besichtigung in Wien und Umgebung mit 24h-Rückrufgarantie.",
+        "Transparente Festpreise: Keine versteckten Kosten – Sie wissen genau, was die Gartenrettung kostet."
       ]
     },
     "callToAction": {
@@ -78,7 +87,10 @@
   "audience": {
     "title": "Für wen sind unsere Dienstleistungen gedacht?",
     "residential": "Privathaushalte mit Garten oder Zweitwohnsitz, die professionelle Unterstützung bei der Gartenpflege suchen – inklusive Rasenmähen, Heckenschnitt, Unkrautentfernung sowie der Installation, Wartung oder Optimierung automatischer Bewässerungssysteme. Besonders interessant für Kunden in 1130 Wien – Hietzing: keine Anfahrtspauschale.",
+    "residentialAlt": "Privatgarten Pflege und Rasen in Wien und Umgebung",
     "sharedYards": "Wohnanlagen oder Eigentümergemeinschaften mit gemeinsam genutzten Grünflächen, die eine zuverlässige, regelmäßige Pflege sowie die Überprüfung und Modernisierung bestehender Bewässerungsanlagen benötigen – insbesondere bei veralteten oder ineffizienten Systemen.",
+    "sharedYardsAlt": "Grünflächenpflege für Wohnanlagen und Hausverwaltungen",
+    "publicSpacesAlt": "Gartenpflege für Firmen und öffentliche Einrichtungen",
     "publicSpaces": "Gemeinden, Schulen, Kindergärten oder Unternehmen, die ihre Außenanlagen funktional und repräsentativ halten möchten – mit professioneller Gartenpflege und modernen, wassersparenden Bewässerungslösungen inklusive saisonalem Service."
   },
 
@@ -88,6 +100,6 @@
     "phone": "+436608956377"
   },
   "banner": {
-    "text": "Keine Anfahrtskosten in Hietzing · Rasenmähen · Optimale Bewässerung · Frühjahrsservice · Gartenrettung"
+    "text": "🌷 Saisonstart 2026: Sichern Sie sich jetzt Ihren Termin für den Frühjahrsservice! – Kostenlose Besichtigung in Wien und Umgebung"
   }
 }

@@ -13,7 +13,7 @@ const Audience = () => {
           <div className="feature-card" key={key}>
             <Image
               src={`/images/${key}.jpg`}
-              alt={t("audience.title")}
+              alt={t(`audience.${key}Alt`)}
               width={400}
               height={300}
             />

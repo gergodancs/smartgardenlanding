@@ -30,7 +30,7 @@ const Hero = () => {
         href="mailto:info@gartendienst-wien.at"
         className="cta-button"
       >
-        Jetzt Kontakt aufnehmen
+        Gratis Besichtigung anfragen
       </a>
       <a
         href="https://wa.me/436608956377"
